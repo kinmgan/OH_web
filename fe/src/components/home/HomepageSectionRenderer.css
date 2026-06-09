@@ -1,0 +1,147 @@
+/* src/components/home/HomepageSectionRenderer.css */
+
+.homepage-sections-wrapper {
+  width: 100%;
+  background: linear-gradient(180deg, #faf8f4 0%, #fff 100%);
+}
+
+.homepage-section-item {
+  width: 100%;
+  padding: 60px 0 80px;
+  border-bottom: 1px solid #f0ebe3;
+}
+
+.homepage-section-item:last-child {
+  border-bottom: none;
+}
+
+/* Section Header */
+.homepage-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.homepage-section-decoration {
+  color: #A57322;
+  font-size: 1.2rem;
+}
+
+.homepage-section-title-group {
+  text-align: center;
+}
+
+.homepage-section-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #194A33;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 0 4px;
+}
+
+.homepage-section-subtitle {
+  display: block;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 0.9rem;
+  color: #A57322;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+/* Products Scroll Container */
+.homepage-section-products-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.homepage-section-products-scroll {
+  display: flex;
+  gap: 28px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 10px 10px 20px;
+  width: max-content;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.homepage-section-products-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.homepage-section-product-card {
+  flex-shrink: 0;
+}
+
+/* Scroll Buttons */
+.homepage-section-scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #194A33;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.homepage-section-scroll-btn:hover {
+  background: #A57322;
+  transform: translateY(-50%) scale(1.08);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.homepage-section-scroll-btn:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.homepage-section-scroll-btn svg {
+  width: 24px;
+  height: 24px;
+}
+
+.homepage-section-scroll-left {
+  left: 0;
+}
+
+.homepage-section-scroll-right {
+  right: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .homepage-section-item {
+    padding: 40px 0 60px;
+  }
+
+  .homepage-section-title {
+    font-size: 1.6rem;
+  }
+
+  .homepage-section-scroll-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .homepage-section-scroll-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+}

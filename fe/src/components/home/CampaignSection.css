@@ -1,0 +1,141 @@
+/* src/components/home/CampaignSection.css */
+
+.campaign-section {
+  width: 100%;
+  padding: 60px 0 80px;
+  background: linear-gradient(180deg, #faf8f4 0%, #fff 100%);
+  position: relative;
+}
+
+/* Campaign Header - Title */
+.campaign-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.campaign-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #194A33;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.campaign-decoration {
+  color: #A57322;
+  font-size: 1.2rem;
+}
+
+/* Campaign Description */
+.campaign-description {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1.1rem;
+  color: #6b7280;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 32px;
+  line-height: 1.6;
+}
+
+/* Products Scroll Container */
+.campaign-products-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.campaign-products-scroll {
+  display: flex;
+  gap: 28px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 10px 10px 20px;
+  width: max-content;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.campaign-products-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.campaign-product-card {
+  flex-shrink: 0;
+}
+
+/* Scroll Buttons */
+.campaign-scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #194A33;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.campaign-scroll-btn:hover {
+  background: #A57322;
+  transform: translateY(-50%) scale(1.08);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.campaign-scroll-btn:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.campaign-scroll-btn svg {
+  width: 24px;
+  height: 24px;
+}
+
+.campaign-scroll-left {
+  left: 0;
+}
+
+.campaign-scroll-right {
+  right: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .campaign-section {
+    padding: 40px 0 60px;
+  }
+
+  .campaign-title {
+    font-size: 1.8rem;
+  }
+
+  .campaign-description {
+    font-size: 1rem;
+    padding: 0 20px;
+  }
+
+  .campaign-scroll-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .campaign-scroll-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+}
