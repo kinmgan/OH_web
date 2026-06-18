@@ -1,251 +1,82 @@
-# Oriental Herbs — RAG Chatbot & E-Commerce Platform
+# Hệ thống Oriental Herbs: E-Commerce & RAG Chatbot
 
-Nền tảng thương mại điện tử dược liệu Đông y tích hợp **AI Service độc lập** — chatbot tư vấn theo kiến trúc Retrieval-Augmented Generation (RAG), phân luồng 3 intent và tối ưu cho corpus tiếng Việt chuyên ngành.
+Repository này chứa mã nguồn cho nền tảng thương mại điện tử Oriental Herbs và dịch vụ chatbot Retrieval-Augmented Generation (RAG) được tích hợp bên trong hệ thống.
+
+## AI Service (RAG Chatbot)
+
+AI Service hoạt động như một microservice độc lập trong kiến trúc hệ thống, cung cấp tính năng tư vấn chuyên sâu trong lĩnh vực Y học cổ truyền (Đông y).
+
+### Kiến trúc RAG Tổng quát
+
+```mermaid
+graph TD
+    User([User Query]) --> Router[Intent Router<br/>Keyword Scoring + LLM]
+    
+    Router -->|Health Intent| Q_Expand[Query Expansion<br/>TCM Synonym Map]
+    Router -->|Shopping Intent| Extract[Entity Extraction<br/>Budget & Categories]
+    
+    Q_Expand --> Vec_Search_H[(Qdrant Vector DB<br/>Health Articles)]
+    Extract --> Vec_Search_S[(Qdrant Vector DB<br/>Products)]
+    
+    Vec_Search_H --> Rerank_H[Hybrid Reranker<br/>Vector + BM25-lite + Title Boost]
+    Vec_Search_S --> Rerank_S[Hybrid Reranker<br/>Vector + BM25-lite + Title Boost]
+    
+    Rerank_H --> Gen[LLM Generation<br/>Prompt Guardrails & Memory]
+    Rerank_S --> Gen
+    
+    Gen --> Output([Final Response & Citations])
+```
+
+### Năng lực hệ thống
+- **Xây dựng kho tri thức:** Tự động thu thập (crawl) và xử lý dữ liệu từ nhiều nguồn y học cổ truyền có cấu trúc website khác nhau; chuẩn hóa hàng nghìn tài liệu y khoa và thông tin sản phẩm.
+- **Data Ingestion Pipeline:** Thiết lập luồng xử lý dữ liệu tự động bao gồm parsing, phân chia đoạn (chunking) theo ngữ cảnh y khoa, embedding và lưu trữ trên Qdrant với các metadata đa chiều phục vụ mục đích truy xuất.
+- **Xử lý Vocabulary Gap:** Giải quyết khoảng cách ngữ nghĩa giữa truy vấn của người dùng và thuật ngữ Đông y chuyên ngành bằng cách xây dựng synonym map từ hơn 400 sản phẩm và áp dụng kỹ thuật query-side expansion trước khi truy xuất.
+- **Chiến lược Hybrid Retrieval:** Kết hợp phương pháp tìm kiếm theo ngữ nghĩa (vector similarity) và tìm kiếm từ khóa (custom BM25-lite), đồng thời tích hợp bước reranking để tối ưu độ chính xác tuyệt đối cho các kết quả trả về.
+- **Intent Routing:** Thiết kế hệ thống định tuyến (intent router) để phân loại và điều hướng các truy vấn của người dùng về sản phẩm, dược liệu, sức khỏe và dinh dưỡng sang các luồng xử lý chuyên biệt.
+- **Prompt Guardrails:** Áp dụng các giới hạn an toàn (guardrails) nghiêm ngặt nhằm ngăn chặn chatbot đưa ra các chẩn đoán hoặc khuyến nghị y tế vượt quá phạm vi cho phép.
+
+### Công nghệ sử dụng
+- **Core Frameworks:** Python, FastAPI, Uvicorn
+- **Vector Database:** Qdrant
+- **LLM & Embedding:** Google Generative AI API, `bkai-foundation-models/vietnamese-bi-encoder` (Sentence-Transformers)
+- **Reranking:** Custom Hybrid Score (BM25-lite + Semantic + Title Boost)
+- **Data Ingestion:** Requests, BeautifulSoup4, Markdownify
 
 ---
 
-## 🤖 AI Service — RAG Chatbot
+## Nền tảng E-Commerce
 
-### Kiến trúc tổng thể
+Hệ thống quản lý toàn bộ quy trình bán lẻ dược liệu với các tính năng chuyên biệt.
 
-```
-┌──────────────┐    HTTPS + JWT     ┌──────────────────┐   internal (docker)   ┌────────────────────┐
-│  Frontend    │ ─────────────────► │  Java Spring BE  │ ────────────────────► │  AI Service        │
-│  (Next.js)   │                    │  (Port 8080)     │   X-Internal-Token    │  (FastAPI :8000)   │
-└──────────────┘                    └────────┬─────────┘                       └──────────┬─────────┘
-                                             │ JDBC                                       │
-                                             ▼                                            ▼
-                                       ┌──────────┐                               ┌──────────────┐
-                                       │PostgreSQL│                               │  Qdrant :6333│
-                                       └──────────┘                               └──────────────┘
-```
+### Các Module cốt lõi
+- **Quản lý Sản phẩm & Danh mục:** Quản lý sản phẩm phân cấp với các cấu trúc biến thể (variant) phức tạp.
+- **Shopping & Checkout:** Quản lý giỏ hàng và tự động tính toán chi phí vận chuyển.
+- **Quản lý Đơn hàng & Hoàn trả:** Theo dõi vòng đời đơn hàng và xử lý các yêu cầu đổi/trả.
+- **Dynamic Homepage:** Cho phép quản trị viên tùy biến giao diện trang chủ thông qua thao tác kéo thả (drag-and-drop) từ admin dashboard.
+- **Chiến dịch Marketing:** Vận hành tự động các chiến dịch giảm giá và mã khuyến mãi.
+- **Phân tích Khách hàng:** Lập hồ sơ sức khỏe người dùng và trực quan hóa qua biểu đồ radar trong giao diện quản trị.
 
-AI Service chạy độc lập hoàn toàn với Java BE — tách biệt tài nguyên, không public ra ngoài, chỉ giao tiếp qua internal secret token.
-
----
-
-### Luồng RAG end-to-end
-
-```
-User message
-     │
-     ▼
-┌─────────────────────────────────────────────────────────────────┐
-│  1. Intent Router (Semantic Router)                              │
-│     ├─ Keyword scoring có trọng số (length-weighted)            │
-│     ├─ Nếu tie → LLM tie-break (1 call, temperature=0)          │
-│     └─ Output: health | shopping                                │
-└─────────────────────────┬───────────────────────────────────────┘
-                          │
-          ┌───────────────┴───────────────┐
-          ▼                               ▼
-     [health]                        [shopping]
-          │                               │
-┌──────────────┐  ┌──────────────┐
-│ Query expand │  │ Budget/cate  │
-│ (lay↔formal) │  │ extract(regex│
-└──────┬───────┘  └──────┬───────┘
-       │                 │
-       ▼                 ▼
-┌──────────────┐  ┌──────────────┐
-│ Qdrant vec   │  │ Qdrant vec   │
-│ search top-20│  │ search top-30│
-└──────┬───────┘  └──────┬───────┘
-       │                 │
-       ▼                 ▼
-┌──────────────┐  ┌──────────────┐
-│ Hybrid       │  │ Python-side  │
-│ Rerank       │  │ filter       │
-│ (vec+BM25    │  │ (price/stock)│
-│  +title)     │  │ + Rerank     │
-└──────┬───────┘  └──────┬───────┘
-       │ top-3           │ top-5
-       ▼                 ▼
-┌─────────────────────────────────┐
-│  Generation (LLM)               │
-│  + System prompt per-intent     │
-│  + Guardrails                   │
-│  + Conversation memory          │
-└─────────────────────────────────┘
-       │
-       ▼
-  JSON / SSE stream + citations
-```
+### Công nghệ sử dụng
+- **Backend:** Java 17, Spring Boot (JPA, Security, Web), PostgreSQL
+- **Frontend:** Next.js (App Router), TypeScript, Tailwind CSS
+- **Authentication:** JWT, OAuth2 (Google Login)
+- **Infrastructure:** Docker, Cloudinary (Image Hosting)
 
 ---
 
-### Data Ingestion Pipelines
+## Hướng dẫn Triển khai (Local Deployment)
 
-#### Pipeline 1 — Y khoa (Unstructured)
-
-**Crawling** — 2 nguồn có cấu trúc HTML khác nhau hoàn toàn:
-
-| Source | Phương pháp discovery | Delay |
-|---|---|---|
-| `dongphuongyphap.net` | Reverse-engineer DOM: `div.list-specialcat-details` → category slugs → bài viết | 1s/request |
-| `thaythuocvietnam.vn` | Parse `post-sitemap.xml`, filter URL theo keyword (`duoc-lieu`, `thao-duoc`, `benh-`) | 2s/request |
-
-Cả hai crawler đều có: idempotent skip (load `index.json` để bỏ qua URL đã crawl), encoding fix (`resp.encoding = "utf-8"` bắt buộc — batch đầu bị lỗi font toàn bộ), output dạng `.md` với YAML frontmatter.
-
-**Chunking & Embedding:**
-```
-.md files
-   │
-   ▼
-Parse YAML frontmatter
-   │
-   ▼
-Split by ## H2 heading          ← giữ ngữ cảnh y khoa theo section
-   │
-   ├─ section ≤ 2200 chars → giữ nguyên
-   └─ section > 2200 chars → split tại \n\n, overlap=200 chars
-   │
-   ▼
-Clean Markdown noise            ← strip ![img], **bold**, HTML tags, URLs
-   │
-   ▼
-Build search text:
-  article_title × 3             ← title repetition boost cho bi-encoder
-  section_title × 2
-  content_clean
-   │
-   ▼
-Embed: bkai-foundation-models/vietnamese-bi-encoder (768d)
-   │
-   ▼
-Upsert Qdrant collection: health_articles
-Payload: {article_title, section_title, content, url, source, chunk_index, ...}
-```
-
-#### Pipeline 2 — Sản phẩm (Structured)
-
-```
-PostgreSQL (JOIN products + categories + product_variants)
-   │
-   ▼
-Build embedding text:
-  "{name} - {description} - Danh mục: {category_name} - Tags: {tags}"
-   │
-   ├─ Normalize TCM tags → user-facing terms (TCM synonym map, 90+ entries)
-   └─ Query-side expansion: "bổ khí" ↔ "bồi bổ cơ thể, tăng sức đề kháng"
-   │
-   ▼
-Embed: bkai vietnamese-bi-encoder, batch_size=32
-   │
-   ▼
-Upsert Qdrant collection: products
-Payload: {product_id, name, min_price, category_id, total_stock, tags, ...}
-```
-
----
-
-### Retrieval Strategy
-
-| Intent | Vector | Filter | Rerank | Final |
-|---|---|---|---|---|
-| **Health** | top-20, `health_articles` | — | Hybrid: vec×0.65 + BM25-lite×0.20 + title×0.15 | top-3 |
-| **Shopping** | top-30, `products` | price ≤ budget, stock > 0, category_id match | Hybrid: vec×0.60 + BM25-lite×0.25 + title×0.15 | top-5 |
-
-**BM25-lite**: tự implement (Jaccard + BM25 smoothing), không dùng cross-encoder ngoại ngữ.
-
----
-
-### Key Engineering Decisions
-
-| Vấn đề | Quyết định |
-|---|---|
-| Cross-encoder `ms-marco-MiniLM-L-6-v2` chỉ hiểu tiếng Anh | Bỏ — thay bằng custom hybrid reranker |
-| TCM vocab gap: DB dùng thuật ngữ Đông y, user dùng từ thông thường | TCM synonym map (90+ entries, evidence-driven từ 1325 tag occurrences) + query expansion |
-| Guardrails y tế | System prompt ép từ chối chẩn đoán/kê đơn; pre-LLM regex pattern detect đơn thuốc |
-| AI Service không public | Internal token (`X-Internal-Token`), chỉ Java BE gọi được |
-| Conversation memory | In-memory buffer per `session_id`, tự cắt khi > 20 messages |
-
----
-
-### Tech Stack — AI Service
-
-| Layer | Công nghệ |
-|---|---|
-| Web framework | FastAPI + Uvicorn |
-| Vector DB | Qdrant (Docker) |
-| Embedding | `bkai-foundation-models/vietnamese-bi-encoder` via Sentence-Transformers |
-| LLM | Google Generative AI API |
-| Reranking | Custom BM25-lite + title boost |
-| Crawling | Requests + BeautifulSoup4 + Markdownify |
-| DB connector | psycopg3 (binary) |
-| Eval | RAGAS-inspired (Faithfulness + Answer Relevance) |
-
----
-
-## 🛒 E-Commerce Platform
-
-### Tech Stack
-
-| Layer | Công nghệ |
-|---|---|
-| Backend | Java 17, Spring Boot (JPA, Security, Web) |
-| Database | PostgreSQL |
-| Auth | JWT + OAuth2 (Google Login) |
-| Storage | Cloudinary |
-| Frontend | Next.js (App Router) + TypeScript |
-| Styling | Tailwind CSS |
-
-### Nghiệp vụ chính
-
-- Quản lý sản phẩm & danh mục (multi-variant)
-- Giỏ hàng, checkout, shipping estimation
-- Tích hợp thanh toán
-- Quản lý đơn hàng & hoàn/trả hàng
-- Đánh giá sản phẩm (reviews + rating)
-- Dynamic homepage (admin kéo thả sections)
-- Chiến dịch marketing & coupon
-- User radar chart (phân tích sức khỏe khách hàng)
-
----
-
-## 🐳 Chạy với Docker
+Toàn bộ hệ thống có thể được khởi chạy thông qua Docker Compose. Yêu cầu Docker Desktop đang hoạt động.
 
 ```bash
 docker-compose up --build -d
 ```
 
-| Service | URL |
-|---|---|
-| Backend (Spring Boot) | `http://localhost:8080` |
-| Frontend User | `http://localhost:3000` |
-| Frontend Admin | `http://localhost:3001` |
-| AI Service (FastAPI) | `http://localhost:8000` (internal only) |
-| Qdrant | `http://localhost:6333` |
+### Các dịch vụ khả dụng
+- **Backend (Spring Boot):** `http://localhost:8080`
+- **Frontend User:** `http://localhost:3000`
+- **Frontend Admin:** `http://localhost:3001`
+- **AI Service (FastAPI):** `http://localhost:8000` (Giao tiếp nội bộ backend)
+- **Qdrant (Vector DB):** `http://localhost:6333`
 
-**Cần cấu hình `.env`** cho mỗi service — xem `.env.example` trong từng thư mục.
-
-### Chạy AI Service riêng
-
-```bash
-cd ai_service
-pip install torch --index-url https://download.pytorch.org/whl/cpu
-pip install -r requirements.txt
-uvicorn src.main:app --reload --port 8000
-```
-
----
-
-## ⚙️ Local Development
-
-**Yêu cầu**: Java 17, Node.js ≥ 18, PostgreSQL, Python ≥ 3.11, Docker (cho Qdrant).
-
-```bash
-# Backend
-cd BE && cp .env.example .env
-./gradlew bootRun        # Windows: gradlew.bat bootRun
-
-# Frontend User
-cd fe && npm install && npm run dev          # http://localhost:3000
-
-# Frontend Admin
-cd fe-admin && npm install && npm run dev    # http://localhost:3001
-
-# AI Service
-cd ai_service
-uvicorn src.main:app --reload --port 8000
-```
+*Lưu ý: Các biến môi trường (`.env`) cần được cấu hình dựa trên các file mẫu `.env.example` trong từng thư mục dịch vụ tương ứng trước khi tiến hành build.*

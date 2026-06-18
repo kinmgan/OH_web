@@ -32,9 +32,4 @@ pydantic-settings==2.3.4
 httpx==0.27.0
 aiohttp==3.9.5
 python-multipart==0.0.9
-
-# ==================== EVALUATION (OPTIONAL) ====================
-# Dùng để chạy: python scripts/eval/eval_ragas.py
-# Cài riêng (không cài cùng production): pip install ragas==0.1.21 datasets
-ragas==0.1.21
-datasets>=2.14.0
+
