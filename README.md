@@ -1,169 +1,251 @@
-# Hệ Thống Thương Mại Điện Tử (E-Commerce System)
+# Oriental Herbs — RAG Chatbot & E-Commerce Platform
 
-Chào mừng bạn đến với dự án hệ thống thương mại điện tử! Đây là một dự án bao gồm các tính năng từ phía người dùng mua sắm (User) đến trang quản trị (Admin Dashboard) phù hợp với nghiệp vụ đặc thù của ngành Đông Y.
-
----
-
-## 🚀 Các Nghiệp Vụ Chính (Core Business)
-Hệ thống xoay quanh việc quản lý và vận hành một cửa hàng trực tuyến với quy trình khép kín:
-
-- **Quản lý Sản phẩm & Danh mục**: Hiển thị, phân loại, tìm kiếm sản phẩm với nhiều biến thể (variants).
-- **Giỏ hàng & Đặt hàng**: Quản lý giỏ hàng, tính toán phí vận chuyển (Shipping Estimation) và quy trình checkout.
-- **Thanh toán (Payment)**: Tích hợp cổng thanh toán để xử lý giao dịch.
-- **Quản lý Đơn hàng (Order Management)**: Xử lý trạng thái đơn, theo dõi giao hàng.
-- **Xử lý Hoàn/Trả hàng (Return Orders)**: Quy trình yêu cầu và phê duyệt đổi trả hàng.
-- **Quản lý Khách hàng**: Đăng ký, đăng nhập, hồ sơ người dùng, quản lý sổ địa chỉ.
-- **Đánh giá Sản phẩm (Reviews)**: Khách hàng để lại đánh giá, rating cho sản phẩm đã mua.
+Nền tảng thương mại điện tử dược liệu Đông y tích hợp **AI Service độc lập** — chatbot tư vấn theo kiến trúc Retrieval-Augmented Generation (RAG), phân luồng 3 intent và tối ưu cho corpus tiếng Việt chuyên ngành.
 
 ---
 
-## ✨ Những Tính Năng Nổi Bật
-1. **AI Chatbot Tư Vấn**: 
-   - Ứng dụng **Google GenAI** tích hợp vào hệ thống để tự động hỗ trợ khách hàng, giải đáp thắc mắc và tư vấn sản phẩm thông minh.
-2. **Dynamic Homepage (Trang chủ Động)**: 
-   - Admin có khả năng kéo thả, cấu hình và thay đổi bố cục, nội dung trang chủ (Homepage Sections) trực tiếp từ Dashboard mà không cần can thiệp vào code.
-3. **Hệ Thống Chiến Dịch Marketing & Coupon**: 
-   - Triển khai các chiến dịch giảm giá (Campaign Pricing), mã khuyến mãi giúp đẩy mạnh doanh số.
-4. **Phân Tích Khách Hàng (User Radar Chart)**: 
-   - Cung cấp cái nhìn trực quan về tình hình sức khỏe của khách hàng thông qua biểu đồ Radar trong admin.
-5. **Xác Thực Đa Nền Tảng**: 
-   - Tích hợp **OAuth2** (Google Login) cùng JWT Tokens giúp quá trình đăng nhập diễn ra mượt mà và cực kỳ bảo mật.
-6. **Lưu Trữ Ảnh Đám Mây (Cloudinary)**: 
-   - Tự động upload, tối ưu hóa và lưu trữ hình ảnh sản phẩm qua dịch vụ Cloudinary.
+## 🤖 AI Service — RAG Chatbot
+
+### Kiến trúc tổng thể
+
+```
+┌──────────────┐    HTTPS + JWT     ┌──────────────────┐   internal (docker)   ┌────────────────────┐
+│  Frontend    │ ─────────────────► │  Java Spring BE  │ ────────────────────► │  AI Service        │
+│  (Next.js)   │                    │  (Port 8080)     │   X-Internal-Token    │  (FastAPI :8000)   │
+└──────────────┘                    └────────┬─────────┘                       └──────────┬─────────┘
+                                             │ JDBC                                       │
+                                             ▼                                            ▼
+                                       ┌──────────┐                               ┌──────────────┐
+                                       │PostgreSQL│                               │  Qdrant :6333│
+                                       └──────────┘                               └──────────────┘
+```
+
+AI Service chạy độc lập hoàn toàn với Java BE — tách biệt tài nguyên, không public ra ngoài, chỉ giao tiếp qua internal secret token.
 
 ---
 
-## 🛠 Công Nghệ Sử Dụng (Tech Stack)
+### Luồng RAG end-to-end
 
-### Backend (`/BE`)
-- **Ngôn ngữ**: Java 17
-- **Framework**: Spring Boot (với Spring Data JPA, Spring Security, Spring Web)
-- **Database**: PostgreSQL
-- **Bảo mật**: JWT (JSON Web Tokens), OAuth2 Client
-- **Tool/Dịch vụ**: Cloudinary (Image Hosting), JavaMail (Gửi email), Google GenAI, Gradle.
+```
+User message
+     │
+     ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  1. Intent Router (Semantic Router)                              │
+│     ├─ Keyword scoring có trọng số (length-weighted)            │
+│     ├─ Nếu tie → LLM tie-break (1 call, temperature=0)          │
+│     └─ Output: health | shopping                                │
+└─────────────────────────┬───────────────────────────────────────┘
+                          │
+          ┌───────────────┴───────────────┐
+          ▼                               ▼
+     [health]                        [shopping]
+          │                               │
+┌──────────────┐  ┌──────────────┐
+│ Query expand │  │ Budget/cate  │
+│ (lay↔formal) │  │ extract(regex│
+└──────┬───────┘  └──────┬───────┘
+       │                 │
+       ▼                 ▼
+┌──────────────┐  ┌──────────────┐
+│ Qdrant vec   │  │ Qdrant vec   │
+│ search top-20│  │ search top-30│
+└──────┬───────┘  └──────┬───────┘
+       │                 │
+       ▼                 ▼
+┌──────────────┐  ┌──────────────┐
+│ Hybrid       │  │ Python-side  │
+│ Rerank       │  │ filter       │
+│ (vec+BM25    │  │ (price/stock)│
+│  +title)     │  │ + Rerank     │
+└──────┬───────┘  └──────┬───────┘
+       │ top-3           │ top-5
+       ▼                 ▼
+┌─────────────────────────────────┐
+│  Generation (LLM)               │
+│  + System prompt per-intent     │
+│  + Guardrails                   │
+│  + Conversation memory          │
+└─────────────────────────────────┘
+       │
+       ▼
+  JSON / SSE stream + citations
+```
 
-### Frontend User (`/fe`)
-- **Framework**: Next.js (App Router)
-- **Ngôn ngữ**: TypeScript
-- **Styling**: Tailwind CSS (hoặc CSS/PostCSS)
-- **Kiến trúc**: Phân chia rõ ràng Components, Hooks, Services (gọi API HTTP), Types.
+---
 
-### Frontend Admin (`/fe-admin`)
-- **Framework**: Next.js (App Router)
-- **Ngôn ngữ**: TypeScript
-- **Đặc điểm**: Tối ưu UI/UX cho quản trị viên với các module quản lý: Đơn hàng, Khách hàng, Sản phẩm, Chiến dịch, Giao diện,...
+### Data Ingestion Pipelines
 
-## 🐳 Chạy Dự Án Bằng Docker
+#### Pipeline 1 — Y khoa (Unstructured)
 
-Chỉ cần **Docker Desktop**.
+**Crawling** — 2 nguồn có cấu trúc HTML khác nhau hoàn toàn:
 
-### Yêu cầu
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) đã được cài đặt và đang chạy.
+| Source | Phương pháp discovery | Delay |
+|---|---|---|
+| `dongphuongyphap.net` | Reverse-engineer DOM: `div.list-specialcat-details` → category slugs → bài viết | 1s/request |
+| `thaythuocvietnam.vn` | Parse `post-sitemap.xml`, filter URL theo keyword (`duoc-lieu`, `thao-duoc`, `benh-`) | 2s/request |
 
-### Bước 1: Cấu hình biến môi trường
+Cả hai crawler đều có: idempotent skip (load `index.json` để bỏ qua URL đã crawl), encoding fix (`resp.encoding = "utf-8"` bắt buộc — batch đầu bị lỗi font toàn bộ), output dạng `.md` với YAML frontmatter.
 
-Đảm bảo các file `.env` đã tồn tại và được cấu hình đúng:
+**Chunking & Embedding:**
+```
+.md files
+   │
+   ▼
+Parse YAML frontmatter
+   │
+   ▼
+Split by ## H2 heading          ← giữ ngữ cảnh y khoa theo section
+   │
+   ├─ section ≤ 2200 chars → giữ nguyên
+   └─ section > 2200 chars → split tại \n\n, overlap=200 chars
+   │
+   ▼
+Clean Markdown noise            ← strip ![img], **bold**, HTML tags, URLs
+   │
+   ▼
+Build search text:
+  article_title × 3             ← title repetition boost cho bi-encoder
+  section_title × 2
+  content_clean
+   │
+   ▼
+Embed: bkai-foundation-models/vietnamese-bi-encoder (768d)
+   │
+   ▼
+Upsert Qdrant collection: health_articles
+Payload: {article_title, section_title, content, url, source, chunk_index, ...}
+```
 
-| Service | File | Mô tả |
-|---------|------|-------|
-| Backend | `BE/.env` | Cấu hình DB, JWT, Cloudinary, Payment, Gemini AI,... (copy từ `BE/.env.example`) |
-| Frontend User | `fe/.env.local` | `NEXT_PUBLIC_API_URL=http://localhost:8080/api/v1` |
-| Frontend Admin | `fe-admin/.env.local` | `NEXT_PUBLIC_API_URL=http://localhost:8080/api/v1` |
+#### Pipeline 2 — Sản phẩm (Structured)
 
+```
+PostgreSQL (JOIN products + categories + product_variants)
+   │
+   ▼
+Build embedding text:
+  "{name} - {description} - Danh mục: {category_name} - Tags: {tags}"
+   │
+   ├─ Normalize TCM tags → user-facing terms (TCM synonym map, 90+ entries)
+   └─ Query-side expansion: "bổ khí" ↔ "bồi bổ cơ thể, tăng sức đề kháng"
+   │
+   ▼
+Embed: bkai vietnamese-bi-encoder, batch_size=32
+   │
+   ▼
+Upsert Qdrant collection: products
+Payload: {product_id, name, min_price, category_id, total_stock, tags, ...}
+```
 
-### Bước 2: Build và khởi chạy
+---
 
-Mở terminal tại thư mục gốc của dự án và chạy:
+### Retrieval Strategy
+
+| Intent | Vector | Filter | Rerank | Final |
+|---|---|---|---|---|
+| **Health** | top-20, `health_articles` | — | Hybrid: vec×0.65 + BM25-lite×0.20 + title×0.15 | top-3 |
+| **Shopping** | top-30, `products` | price ≤ budget, stock > 0, category_id match | Hybrid: vec×0.60 + BM25-lite×0.25 + title×0.15 | top-5 |
+
+**BM25-lite**: tự implement (Jaccard + BM25 smoothing), không dùng cross-encoder ngoại ngữ.
+
+---
+
+### Key Engineering Decisions
+
+| Vấn đề | Quyết định |
+|---|---|
+| Cross-encoder `ms-marco-MiniLM-L-6-v2` chỉ hiểu tiếng Anh | Bỏ — thay bằng custom hybrid reranker |
+| TCM vocab gap: DB dùng thuật ngữ Đông y, user dùng từ thông thường | TCM synonym map (90+ entries, evidence-driven từ 1325 tag occurrences) + query expansion |
+| Guardrails y tế | System prompt ép từ chối chẩn đoán/kê đơn; pre-LLM regex pattern detect đơn thuốc |
+| AI Service không public | Internal token (`X-Internal-Token`), chỉ Java BE gọi được |
+| Conversation memory | In-memory buffer per `session_id`, tự cắt khi > 20 messages |
+
+---
+
+### Tech Stack — AI Service
+
+| Layer | Công nghệ |
+|---|---|
+| Web framework | FastAPI + Uvicorn |
+| Vector DB | Qdrant (Docker) |
+| Embedding | `bkai-foundation-models/vietnamese-bi-encoder` via Sentence-Transformers |
+| LLM | Google Generative AI API |
+| Reranking | Custom BM25-lite + title boost |
+| Crawling | Requests + BeautifulSoup4 + Markdownify |
+| DB connector | psycopg3 (binary) |
+| Eval | RAGAS-inspired (Faithfulness + Answer Relevance) |
+
+---
+
+## 🛒 E-Commerce Platform
+
+### Tech Stack
+
+| Layer | Công nghệ |
+|---|---|
+| Backend | Java 17, Spring Boot (JPA, Security, Web) |
+| Database | PostgreSQL |
+| Auth | JWT + OAuth2 (Google Login) |
+| Storage | Cloudinary |
+| Frontend | Next.js (App Router) + TypeScript |
+| Styling | Tailwind CSS |
+
+### Nghiệp vụ chính
+
+- Quản lý sản phẩm & danh mục (multi-variant)
+- Giỏ hàng, checkout, shipping estimation
+- Tích hợp thanh toán
+- Quản lý đơn hàng & hoàn/trả hàng
+- Đánh giá sản phẩm (reviews + rating)
+- Dynamic homepage (admin kéo thả sections)
+- Chiến dịch marketing & coupon
+- User radar chart (phân tích sức khỏe khách hàng)
+
+---
+
+## 🐳 Chạy với Docker
 
 ```bash
 docker-compose up --build -d
 ```
 
-Quá trình build lần đầu sẽ mất vài phút. Sau khi hoàn tất, các service sẽ chạy tại:
+| Service | URL |
+|---|---|
+| Backend (Spring Boot) | `http://localhost:8080` |
+| Frontend User | `http://localhost:3000` |
+| Frontend Admin | `http://localhost:3001` |
+| AI Service (FastAPI) | `http://localhost:8000` (internal only) |
+| Qdrant | `http://localhost:6333` |
 
-| Service | URL | Mô tả |
-|---------|-----|-------|
-| Backend (Spring Boot) | `http://localhost:8080` | REST API (`/api/v1/...`) |
-| Frontend User (Next.js) | `http://localhost:3000` | Trang mua sắm cho khách hàng |
-| Frontend Admin (Next.js) | `http://localhost:3001` | Trang quản trị cho Admin |
+**Cần cấu hình `.env`** cho mỗi service — xem `.env.example` trong từng thư mục.
 
-### Các lệnh Docker hữu ích
+### Chạy AI Service riêng
 
 ```bash
-# Xem logs của tất cả service
-docker-compose logs -f
-
-# Xem logs của một service cụ thể
-docker-compose logs -f backend
-docker-compose logs -f frontend
-docker-compose logs -f frontend-admin
-
-# Dừng tất cả service
-docker-compose down
-
-# Build lại một service cụ thể (VD: sau khi sửa code backend)
-docker-compose up --build -d backend
-
-# Xem trạng thái các container
-docker-compose ps
+cd ai_service
+pip install torch --index-url https://download.pytorch.org/whl/cpu
+pip install -r requirements.txt
+uvicorn src.main:app --reload --port 8000
 ```
 
 ---
 
-## ⚙️ Hướng Dẫn Cài Đặt & Chạy Dự Án (Local Development)
+## ⚙️ Local Development
 
-Để chạy được dự án, hãy đảm bảo máy bạn đã cài đặt: **Java 17**, **Node.js (>= 18)**, và **PostgreSQL**.
+**Yêu cầu**: Java 17, Node.js ≥ 18, PostgreSQL, Python ≥ 3.11, Docker (cho Qdrant).
 
-### 1. Khởi chạy Backend (`/BE`)
-1. Cài đặt và khởi chạy **PostgreSQL**. Tạo một database mới cho dự án.
-2. Mở terminal, di chuyển vào thư mục BE:
-   ```bash
-   cd BE
-   ```
-3. Tạo file `.env` từ file mẫu `.env.example` và cấu hình thông tin kết nối DB, JWT Secret, Cloudinary, Google GenAI,...:
-   ```bash
-   cp .env.example .env
-   ```
-4. Khởi chạy project bằng Gradle:
-   - Trên Windows:
-     ```cmd
-     gradlew.bat bootRun
-     ```
-   - Trên Mac/Linux:
-     ```bash
-     ./gradlew bootRun
-     ```
-   *(Backend sẽ chạy ở cổng mặc định thường là `8080`)*
+```bash
+# Backend
+cd BE && cp .env.example .env
+./gradlew bootRun        # Windows: gradlew.bat bootRun
 
-### 2. Khởi chạy Frontend User (`/fe`)
-1. Mở một terminal mới, di chuyển vào thư mục Frontend:
-   ```bash
-   cd fe
-   ```
-2. Cài đặt các thư viện phụ thuộc:
-   ```bash
-   npm install
-   ```
-3. Khởi chạy server development:
-   ```bash
-   npm run dev
-   ```
-   *(Truy cập trình duyệt tại: `http://localhost:3000`)*
+# Frontend User
+cd fe && npm install && npm run dev          # http://localhost:3000
 
-### 3. Khởi chạy Frontend Admin (`/fe-admin`)
-1. Mở một terminal mới, di chuyển vào thư mục Admin:
-   ```bash
-   cd fe-admin
-   ```
-2. Cài đặt các thư viện phụ thuộc:
-   ```bash
-   npm install
-   ```
-3. Khởi chạy server development:
-   ```bash
-   npm run dev
-   ```
-   *(Truy cập trình duyệt tại URL admin, thường là: `http://localhost:3001` hoặc cổng được Next.js cấp phát)*
+# Frontend Admin
+cd fe-admin && npm install && npm run dev    # http://localhost:3001
 
-
-
+# AI Service
+cd ai_service
+uvicorn src.main:app --reload --port 8000
+```

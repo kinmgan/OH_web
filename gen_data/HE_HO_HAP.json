@@ -1,0 +1,1851 @@
+{
+  "category_code": "HE_HO_HAP",
+  "category_id": 2,
+  "category_name": "Hệ hô hấp",
+  "requested_count": 80,
+  "products": [
+    {
+      "name": "Cát Cánh",
+      "origin": "Rễ cây Cát cánh (Platycodon grandiflorus A. DC.), họ Cát cánh (Campanulaceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "ho",
+        "dau_hong",
+        "thong_y",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tuyên phế, lợi yết, trừ đờm, bài nùng. Dùng trị ho có đờm, đau họng, khản tiếng, phế ung.",
+      "price_hint": 95000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "Tử Uyển",
+      "origin": "Rễ và thân rễ cây Tử uyển (Aster tataricus L. f.), họ Cúc (Asteraceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "ho",
+        "khan_tieng",
+        "tieu_dom",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Trừ đờm, chỉ khái, ôn phế, hạ khí. Dùng trị ho lâu ngày, suyễn thở, viêm khí quản mạn tính.",
+      "price_hint": 110000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Danh y biệt lục"
+    },
+    {
+      "name": "Bạc Hà",
+      "origin": "Lá cây Bạc hà (Mentha haplocalyx Briq.), họ Bạc hà (Lamiaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "CAN"
+      ],
+      "tags": [
+        "cam_mao",
+        "phat_han",
+        "thong_khi",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tán phong nhiệt, thanh đầu mục, lợi yết, thông khí. Dùng trị cảm mạo phong nhiệt, đau đầu, viêm mũi họng.",
+      "price_hint": 85000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Kinh Giới",
+      "origin": "Phần trên mặt đất của cây Kinh giới (Schizonepeta tenuifolia Briq.), họ Bạc hà (Lamiaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "CAN"
+      ],
+      "tags": [
+        "cam_mao",
+        "phat_han",
+        "thau_huyet",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Giải biểu tán phong, thấu chẩn tiêu sưng. Dùng trị cảm mạo phong hàn, phong nhiệt, nổi mề đay.",
+      "price_hint": 75000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Tía Tô",
+      "origin": "Lá cây Tía tô (Perilla frutescens (L.) Britt.), họ Bạc hà (Lamiaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "TY"
+      ],
+      "tags": [
+        "cam_mao",
+        "ho",
+        "an_thai",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tán hàn, khoan trung, lí khí, an thai. Dùng trị cảm mạo phong hàn, ho nôn, thai nghén nôn ói.",
+      "price_hint": 65000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Tế Tân",
+      "origin": "Toàn cây Tế tân (Asarum heterotropoides F. Schmidt), họ Aristolochiaceae",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "THAN",
+        "TAM"
+      ],
+      "tags": [
+        "cam_mao",
+        "dau_dau",
+        "tan_han",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tán phong hàn, thông khiếu, hành thủy, chỉ thống. Dùng trị cảm mạo phong hàn, đau đầu, tắc mũi, đau răng.",
+      "price_hint": 130000,
+      "unit": "Gói 200g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "Bán Hạ",
+      "origin": "Củ Bán hạ (Pinellia ternata (Thunb.) Breit.), họ Ráy (Araceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "TY",
+        "VI",
+        "PHE"
+      ],
+      "tags": [
+        "tieu_dom",
+        "chi_nôn",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Táo thấp hóa đờm, giáng nghịch chỉ ôn, tiêu ung tán kết. Dùng trị ho nhiều đờm, nôn mửa, đau dạ dày.",
+      "price_hint": 145000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "Liên Kiều",
+      "origin": "Quả chín phơi hay sấy khô của cây Liên kiều (Forsythia suspensa (Thunb.) Vahl), họ Nhài (Oleaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "TAM",
+        "CAN",
+        "DOM"
+      ],
+      "tags": [
+        "cam_mao",
+        "thanh_nhiet",
+        "giai_doc",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt giải độc, tiêu ung tán kết, tán phong nhiệt. Dùng trị cảm nhiệt, viêm họng, mụn nhọt.",
+      "price_hint": 95000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Kim Ngân Hoa",
+      "origin": "Hoa của cây Kim ngân (Lonicera japonica Thunb.), họ Kim ngân (Caprifoliaceae)",
+      "flavors": [
+        "NGOT",
+        "DANG"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE",
+        "VI",
+        "TAM"
+      ],
+      "tags": [
+        "cam_mao",
+        "thanh_nhiet",
+        "giai_doc",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt giải độc, tán phong nhiệt. Dùng trị cảm nhiệt, viêm họng, lở loét, sốt cao.",
+      "price_hint": 110000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Hạnh Nhân",
+      "origin": "Hạt của cây Mơ (Prunus armeniaca L.), họ Hoa hồng (Rosaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "DAI_TRANG"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "suyen",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Chỉ khái bình suyễn, nhuận tràng thông tiện. Dùng trị ho, hen suyễn, táo bón.",
+      "price_hint": 85000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Tang Bạch Bì",
+      "origin": "Vỏ rễ cây Dâu (Morus alba L.), họ Dâu (Moraceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "ho",
+        "suyen",
+        "thuy_thung",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tả phế hành thủy, chỉ khái bình suyễn. Dùng trị ho suyễn, phù thũng, tiểu tiện bất lợi.",
+      "price_hint": 90000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Tiền Hồ",
+      "origin": "Rễ cây Tiền hồ (Peucedanum praeruptorum Dunn), họ Hoa tán (Apiaceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "tieu_dom",
+        "chi_khai",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tuyên phế tán phong, hạ khí tiêu đờm. Dùng trị ho nhiều đờm, đờm vàng khó khạc, cảm mạo.",
+      "price_hint": 100000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Danh y biệt lục"
+    },
+    {
+      "name": "Bối Mẫu",
+      "origin": "Vỏ thân cây Bối mẫu (Fritillaria cirrhosa D. Don), họ Liliaceae",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "TAM"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "tieu_dom",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt hóa đờm, nhuận phế chỉ khái. Dùng trị ho khan, suyễn, viêm phế quản, lao phổi.",
+      "price_hint": 450000,
+      "unit": "Gói 100g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Bản thảo cương mục"
+    },
+    {
+      "name": "Trần Bì",
+      "origin": "Vỏ quả cam chín phơi khô (Citrus reticulata Blanco), họ Cửu lý hương (Rutaceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "TY",
+        "PHE"
+      ],
+      "tags": [
+        "tieu_dom",
+        "ly_khi",
+        "kien_ty",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Lý khí kiện tỳ, táo thấp hóa đờm. Dùng trị đầy bụng, nôn mửa, ho nhiều đờm, ăn uống kém.",
+      "price_hint": 95000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Bách Bộ",
+      "origin": "Rễ củ cây Bách bộ (Stemona tuberosa Lour.), họ Bách bộ (Stemonaceae)",
+      "flavors": [
+        "CAY",
+        "NGOT"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "sau_re",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Nhuận phế chỉ khái, sát trùng diệt rận. Dùng trị ho các loại, đặc biệt ho gà, ho lâu ngày.",
+      "price_hint": 125000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Sa Sâm",
+      "origin": "Rễ cây Sa sâm (Adenophora tetraphylla (Thunb.) Fisch.), họ Hoa chuông (Campanulaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "duong_am",
+        "chi_khai",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Nhuận phế chỉ khái, dưỡng âm thanh vị. Dùng trị ho khan, họng khô, lao phổi, suy nhược sau bệnh.",
+      "price_hint": 140000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Khổ Hạnh Nhân",
+      "origin": "Hạt của cây Mơ khổ (Prunus armeniaca L. var. ansu Maxim.), họ Hoa hồng (Rosaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "DAI_TRANG"
+      ],
+      "tags": [
+        "chi_khai",
+        "suyen",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Chỉ khái bình suyễn, nhuận tràng. Dùng trị ho suyễn, đờm nhiều, khó thở. Khổ hạnh nhân có tính độc khi dùng sống.",
+      "price_hint": 70000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Khoản Đông Hoa",
+      "origin": "Hoa của cây Khoản đông (Tussilago farfara L.), họ Cúc (Asteraceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "tieu_dom",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Nhuận phế hạ khí, chỉ khái hóa đờm. Dùng trị ho lâu ngày, suyễn thở, đờm nhiều, lao phổi.",
+      "price_hint": 125000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Bản thảo cương mục"
+    },
+    {
+      "name": "Tử Tô Tử",
+      "origin": "Hạt của cây Tía tô (Perilla frutescens (L.) Britt.), họ Bạc hà (Lamiaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "TY"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "suyen",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Giáng khí hóa đờm, chỉ khái bình suyễn, khoan trung an thai. Dùng trị ho suyễn, đầy bụng, nôn mửa.",
+      "price_hint": 85000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Tử Tô Diệp",
+      "origin": "Lá cây Tía tô (Perilla frutescens (L.) Britt.), họ Bạc hà (Lamiaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "TY"
+      ],
+      "tags": [
+        "cam_mao",
+        "ho",
+        "an_thai",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tán hàn, giải biểu, lí khí an trung. Dùng trị cảm mạo phong hàn, ho, đầy bụng, nôn mửa.",
+      "price_hint": 65000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Bạch Chỉ",
+      "origin": "Rễ cây Bạch chỉ (Angelica dahurica (Fisch. ex Hoffm.) Benth. et Hook. f.), họ Hoa tán (Apiaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "VI",
+        "DAI_TRANG"
+      ],
+      "tags": [
+        "cam_mao",
+        "dau_dau",
+        "thong_khi",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tán phong trừ thấp, thông khiếu, chỉ thống, tiêu ung. Dùng trị cảm mạo, đau đầu, tắc mũi, đau răng.",
+      "price_hint": 105000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "La Bạc Tử",
+      "origin": "Hạt của cây La bạc (Lepidium apetalum Willd.), họ Cải (Brassicaceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "tieu_dom",
+        "chi_khai",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Nhuận phế hạ khí, chỉ khái hóa đờm, hành thủy tiêu thũng. Dùng trị ho suyễn, phù thũng.",
+      "price_hint": 80000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Mộc Hương",
+      "origin": "Rễ cây Mộc hương (Aucklandia lappa Decne.), họ Cúc (Asteraceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "TY",
+        "VI",
+        "DOM",
+        "TAM_BAO"
+      ],
+      "tags": [
+        "ho",
+        "suyen",
+        "ly_khi",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Lý khí chỉ thống, ôn trung kiện tỳ. Dùng trị đầy bụng, đau dạ dày, ho suyễn, tiêu chảy.",
+      "price_hint": 115000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Ngưu Bàng Tử",
+      "origin": "Quả chín của cây Ngưu bàng (Arctium lappa L.), họ Cúc (Asteraceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "chi_khai",
+        "viem_hong",
+        "giai_doc",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tuyên phế lợi yết, giải độc tán phong. Dùng trị cảm mạo, ho, viêm họng, mụn nhọt.",
+      "price_hint": 85000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Bản Lam Căn",
+      "origin": "Rễ cây Chàm (Isatis tinctoria L.), họ Cải (Brassicaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "CAN",
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "thanh_nhiet",
+        "giai_doc",
+        "cam_mao",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt giải độc, lương huyết lợi yết. Dùng trị cảm nhiệt, sốt cao, viêm họng, sởi.",
+      "price_hint": 75000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Xuyên Tâm Liên",
+      "origin": "Phần trên mặt đất của cây Xuyên tâm liên (Andrographis paniculata (Burm. f.) Nees), họ Ô rô (Acanthaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE",
+        "VI",
+        "DOM",
+        "TAM_BAO"
+      ],
+      "tags": [
+        "thanh_nhiet",
+        "giai_doc",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt giải độc, lương huyết tiêu ung. Dùng trị cảm nhiệt, viêm họng, ho, tiêu chảy.",
+      "price_hint": 65000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Sài Đất",
+      "origin": "Rễ cây Sài đất (Scoparia dulcis L.), họ Xuân hoa (Plantaginaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "viem_phe_quan",
+        "dong_y_viet_nam"
+      ],
+      "short_desc": "Thanh nhiệt chỉ khái, lợi niệu tiêu độc. Dùng trị ho, viêm phế quản, tiểu buốt, mụn nhọt.",
+      "price_hint": 55000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Dạ Cẩm",
+      "origin": "Rễ cây Dạ cẩm (Ardisia silvestris Pitard), họ Bá bén (Myrsinaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "viem_hong",
+        "dong_y_viet_nam"
+      ],
+      "short_desc": "Thanh nhiệt chỉ khái, hóa đờm, tiêu viêm. Dùng trị ho, viêm họng, viêm phế quản, lao hạch.",
+      "price_hint": 70000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam; Dược điển Việt Nam V"
+    },
+    {
+      "name": "Rẻ Quạt",
+      "origin": "Thân rễ cây Rẻ quạt (Belamcanda chinensis (L.) DC.), họ Diên vĩ (Iridaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "viem_hong",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt giải độc, tiêu đờm, lợi yết. Dùng trị ho, viêm họng, khản tiếng, lao phổi.",
+      "price_hint": 95000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Cỏ Mực",
+      "origin": "Toàn cây Cỏ mực (Eclipta prostrata (L.) L.), họ Cúc (Asteraceae)",
+      "flavors": [
+        "CHUA",
+        "NGOT"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "CAN",
+        "THAN"
+      ],
+      "tags": [
+        "ho_ra_mau",
+        "duong_am",
+        "ich_tinh_huyet",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tư âm, ích tinh huyết, lương huyết, chỉ huyết. Dùng trị ho ra máu, tóc bạc sớm, chảy máu cam.",
+      "price_hint": 60000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Hoa Đu Đủ Đực",
+      "origin": "Hoa đực của cây Đu đủ (Carica papaya L.), họ Đu đủ (Caricaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "viem_phe_quan",
+        "dong_y_viet_nam"
+      ],
+      "short_desc": "Chỉ khái hóa đờm, thanh nhiệt giải độc. Dùng trị ho, hen suyễn, viêm phế quản, sốt.",
+      "price_hint": 75000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "La Lơi",
+      "origin": "Lá cây La lơi (Piper lolot C. DC.), họ Hồ tiêu (Piperaceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "om_tho",
+        "dong_y_viet_nam"
+      ],
+      "short_desc": "Chỉ khái hóa đờm, ôn phế. Dùng trị ho, suyễn, ôm thở, đau bụng lạnh.",
+      "price_hint": 85000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Mía Lau",
+      "origin": "Thân cây Mía lau (Saccharum spontaneum L.), họ Hòa thảo (Poaceae)",
+      "flavors": [
+        "NGOT"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "thanh_nhiet",
+        "dong_y_viet_nam"
+      ],
+      "short_desc": "Thanh nhiệt sinh tân, chỉ khái, nhuận táo. Dùng trị ho, sốt nóng, khát nước, tiểu tiện bất lợi.",
+      "price_hint": 45000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Mã Đề",
+      "origin": "Toàn cây Mã đề (Plantago asiatica L.), họ Mã đề (Plantaginaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "THAN",
+        "CAN"
+      ],
+      "tags": [
+        "tieu_dom",
+        "chi_khai",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Nhuận phế chỉ khái, thanh nhiệt hóa đờm, lợi niệu thông lâm. Dùng trị ho, đờm nhiều, tiểu buốt.",
+      "price_hint": 50000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Lá Xạ Đen",
+      "origin": "Lá cây Xạ đen (Celastrus hindsii Benth.), họ Dây gối (Celastraceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "CAN",
+        "PHE"
+      ],
+      "tags": [
+        "ho",
+        "ung_thu",
+        "thanh_nhiet",
+        "dong_y_viet_nam"
+      ],
+      "short_desc": "Thanh nhiệt giải độc, tán kết tiêu ung. Dùng hỗ trợ điều trị ho, ung thư phổi, viêm gan.",
+      "price_hint": 85000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Cây Lược Vàng",
+      "origin": "Rễ và lá cây Lược vàng (Callisia fragrans (Lindl.) Woodson), họ Thài lài (Commelinaceae)",
+      "flavors": [
+        "DANG",
+        "CHUA"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "ho",
+        "viem_hong",
+        "dong_y_viet_nam"
+      ],
+      "short_desc": "Thanh nhiệt giải độc, tiêu viêm chỉ khái. Dùng trị ho, viêm họng, đau dạ dày.",
+      "price_hint": 65000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam; kinh nghiệm dân gian"
+    },
+    {
+      "name": "Hạt Gấc",
+      "origin": "Hạt của cây Gấc (Momordica cochinchinensis (Lour.) Spreng.), họ Bầu bí (Cucurbitaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "VI",
+        "CAN"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "tieu_dom",
+        "dong_y_viet_nam"
+      ],
+      "short_desc": "Chỉ khái hóa đờm, thanh nhiệt giải độc, tiêu ung. Dùng trị ho, suyễn, mụn nhọt.",
+      "price_hint": 75000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Lá Dâu",
+      "origin": "Lá cây Dâu (Morus alba L.), họ Dâu (Moraceae)",
+      "flavors": [
+        "CAY",
+        "DANG",
+        "NGOT"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "CAN",
+        "PHE"
+      ],
+      "tags": [
+        "cam_mao",
+        "ho",
+        "thanh_nhiet",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tán phong nhiệt, thanh can minh mục, bình can dương. Dùng trị cảm phong nhiệt, ho, mắt đỏ.",
+      "price_hint": 55000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Bạch Đầu Ông",
+      "origin": "Rễ cây Bạch đầu ông (Anemone tomentosa (Maxim.) Péi), họ Mao lương (Ranunculaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "VI",
+        "DAI_TRANG"
+      ],
+      "tags": [
+        "cam_mao",
+        "dau_dau",
+        "dong_y_viet_nam"
+      ],
+      "short_desc": "Tán phong nhiệt, giải độc, sát trùng. Dùng trị cảm mạo, đau đầu, lỵ, mụn nhọt.",
+      "price_hint": 65000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Nhân Trần",
+      "origin": "Phần trên mặt đất của cây Nhân trần (Artemisia capillaris Thunb.), họ Cúc (Asteraceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "CAN",
+        "DOM",
+        "PHE"
+      ],
+      "tags": [
+        "cam_mao",
+        "ho",
+        "thanh_nhiet",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt lợi thấp, thoái hoàng. Dùng trị cảm nhiệt, ho, vàng da, tiểu vàng.",
+      "price_hint": 55000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Hoắc Hương",
+      "origin": "Phần trên mặt đất của cây Hoắc hương (Pogostemon cablin (Blanco) Benth.), họ Bạc hà (Lamiaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "TY",
+        "VI",
+        "PHE"
+      ],
+      "tags": [
+        "cam_thu",
+        "ho",
+        "tieu_thuc",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Hóa thấp chỉ ũ, phát biểu thử nhiệt. Dùng trị cảm thử, đầy bụng, nôn mửa, ho.",
+      "price_hint": 75000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Tri Mẫu",
+      "origin": "Thân rễ phơi khô của cây Tri mẫu (Anemarrhena asphodeloides Bunge), họ Liliaceae",
+      "flavors": [
+        "NGOT",
+        "DANG"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE",
+        "VI",
+        "THAN"
+      ],
+      "tags": [
+        "thanh_nhiet",
+        "cam_mao",
+        "chi_khai",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt xử phong, nhuận phế chỉ khái, tư âm giáng hỏa. Dùng trị cảm nhiệt, ho, sốt cao, khát nước.",
+      "price_hint": 95000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "Hoàng Cầm",
+      "origin": "Rễ cây Hoàng cầm (Scutellaria baicalensis Georgi), họ Bạc hà (Lamiaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE",
+        "VI",
+        "DOM",
+        "TAM_BAO"
+      ],
+      "tags": [
+        "thanh_nhiet",
+        "tieu_doc",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt táo thấp, lương huyết chỉ huyết, an thai. Dùng trị cảm nhiệt, ho, tiêu chảy, chảy máu.",
+      "price_hint": 85000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "Sơn Dược",
+      "origin": "Củ của cây Hoài sơn (Dioscorea persimilis Prain et Burkill), họ Củ nâu (Dioscoreaceae)",
+      "flavors": [
+        "NGOT"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "TY",
+        "PHE",
+        "THAN"
+      ],
+      "tags": [
+        "kien_ty",
+        "chi_khai",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Bổ tỳ dưỡng vị, sinh tân ích phế, bổ thận từ tinh. Dùng trị ăn uống kém, ho, lao phổi, tiểu nhiều.",
+      "price_hint": 125000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Bạch Linh",
+      "origin": "Phần thân củ phơi khô của nấm Bạch linh (Poria cocos (Schw.) Wolf), họ Nấm lỗ (Polyporaceae)",
+      "flavors": [
+        "NGOT",
+        "DANG"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "TY",
+        "TAM",
+        "PHE"
+      ],
+      "tags": [
+        "tieu_dom",
+        "kien_ty",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Lợi thủy thấm thấp, kiện tỳ, an thần. Dùng trị đờm nhiều, phù thũng, mất ngủ, tiểu tiện bất lợi.",
+      "price_hint": 105000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Phòng Phong",
+      "origin": "Rễ cây Phòng phong (Saposhnikovia divaricata (Turcz.) Schischk.), họ Hoa tán (Apiaceae)",
+      "flavors": [
+        "CAY",
+        "NGOT"
+      ],
+      "property": "ON",
+      "meridians": [
+        "CAN",
+        "PHE",
+        "TY"
+      ],
+      "tags": [
+        "cam_mao",
+        "phat_han",
+        "thau_huyet",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Giải biểu tán phong, thắng thấp chỉ thống, thấu chẩn. Dùng trị cảm mạo, đau đầu, đau khớp, nổi mề đay.",
+      "price_hint": 115000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Tang Diệp",
+      "origin": "Lá cây Dâu (Morus alba L.), họ Dâu (Moraceae)",
+      "flavors": [
+        "CAY",
+        "DANG",
+        "NGOT"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "CAN",
+        "PHE"
+      ],
+      "tags": [
+        "cam_mao",
+        "ho",
+        "thanh_nhiet",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tán phong nhiệt, thanh can minh mục. Dùng trị cảm phong nhiệt, ho, mắt đỏ, đau đầu chóng mặt.",
+      "price_hint": 55000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Tỳ Bà Diệp",
+      "origin": "Lá cây Tỳ bà (Eriobotrya japonica (Thunb.) Lindl.), họ Hoa hồng (Rosaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "tieu_dom",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh phế chỉ khái, hàng nghịch chỉ ố. Dùng trị ho nhiều đờm, nôn mửa, khát nước.",
+      "price_hint": 85000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Đại Thanh Diệp",
+      "origin": "Lá cây Đại thanh (Isatis indigotica Fortune), họ Cải (Brassicaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "VI",
+        "CAN"
+      ],
+      "tags": [
+        "cam_mao",
+        "thanh_nhiet",
+        "giai_doc",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt giải độc, lương huyết tán huyết. Dùng trị cảm nhiệt, sốt cao, viêm họng, ban chẩn.",
+      "price_hint": 65000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Ngân Kiều",
+      "origin": "Quả chín phơi khô của cây Ngân kiều (Forsythia suspensa (Thunb.) Vahl), họ Nhài (Oleaceae)",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "TAM",
+        "CAN",
+        "DOM"
+      ],
+      "tags": [
+        "cam_mao",
+        "thanh_nhiet",
+        "giai_doc",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt giải độc, tiêu ung tán kết. Dùng trị cảm nhiệt, viêm họng, mụn nhọt.",
+      "price_hint": 95000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Hương Nhu",
+      "origin": "Phần trên mặt đất của cây Hương nhu (Elsholtzia ciliata (Thunb.) Hylander), họ Bạc hà (Lamiaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "cam_mao",
+        "phat_han",
+        "tieu_thuc",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Phát biểu tán hàn, ôn trung hóa thấp. Dùng trị cảm mạo phong hàn, đầy bụng, nôn mửa, tiêu chảy.",
+      "price_hint": 55000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Thạch Cao",
+      "origin": "Khoáng vật Thạch cao (CaSO₄·2H₂O), sau khi nung và tán bột",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "NHIET",
+      "meridians": [
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "thanh_nhiet",
+        "cam_mao",
+        "phe_nhiet",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt xử phong, trừ phiền chỉ khát, sinh cơ liêm sang. Dùng trị cảm nhiệt, sốt cao, khát nước, ho.",
+      "price_hint": 45000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Đinh Hương",
+      "origin": "Nụ hoa phơi khô của cây Đinh hương (Syzygium aromaticum (L.) Merr. et Perry), họ Sim (Myrtaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "TY",
+        "VI",
+        "PHE",
+        "THAN"
+      ],
+      "tags": [
+        "ho",
+        "suyen",
+        "ly_khi",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Ôn trung hàng nghịch, ôn thận trợ dương. Dùng trị ho suyễn, ói mửa, đau bụng lạnh.",
+      "price_hint": 185000,
+      "unit": "Gói 200g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Môn Đông",
+      "origin": "Rễ củ phơi khô của cây Môn đông (Liriope spicata (Thunb.) Lour.), họ Mạch môn (Asparagaceae)",
+      "flavors": [
+        "NGOT",
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "TAM",
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "duong_am",
+        "chi_khai",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Dưỡng âm nhuận phế, ích vị sinh tân, thanh tâm trừ phiền. Dùng trị ho khan, lao phổi, khát nước.",
+      "price_hint": 145000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Cúc Hoa",
+      "origin": "Hoa phơi khô của cây Cúc vàng (Chrysanthemum morifolium Ramat.), họ Cúc (Asteraceae)",
+      "flavors": [
+        "CAY",
+        "NGOT",
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "CAN",
+        "PHE"
+      ],
+      "tags": [
+        "cam_mao",
+        "thanh_nhiet",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Tán phong nhiệt, bình can minh mục, thanh can chỉ huyết. Dùng trị cảm nhiệt, đau đầu, mắt đỏ, ho.",
+      "price_hint": 85000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Qua Lâu Bì",
+      "origin": "Vỏ quả phơi khô của cây Qua lâu (Trichosanthes kirilowii Maxim.), họ Bầu bí (Cucurbitaceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "tieu_dom",
+        "chi_khai",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh phế hóa đờm, hành khí khoan trung. Dùng trị ho nhiều đờm, đau ngực, đầy bụng.",
+      "price_hint": 75000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Hạt Dẻ",
+      "origin": "Hạt của cây Dẻ (Castanea mollissima Blume), họ Fagaceae",
+      "flavors": [
+        "NGOT"
+      ],
+      "property": "ON",
+      "meridians": [
+        "TY",
+        "VI",
+        "THAN"
+      ],
+      "tags": [
+        "ho",
+        "tieu_dom",
+        "kien_ty",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Kiện tỳ ích khí, bổ thận cường cân, hoạt huyết chỉ huyết. Dùng trị ho, tiêu chảy, đau nhức xương.",
+      "price_hint": 85000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam; Dược điển Việt Nam V"
+    },
+    {
+      "name": "Ô Mai",
+      "origin": "Quả chín phơi khô của cây Mận (Prunus mume (Siebold) Siebold et Zucc.), họ Hoa hồng (Rosaceae)",
+      "flavors": [
+        "CHUA"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "VI",
+        "CAN",
+        "DAI_TRANG"
+      ],
+      "tags": [
+        "chi_khai",
+        "ho",
+        "sinh_tan",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thu liễm cố thoát, sinh tân chỉ khát, an hồi trùng. Dùng trị ho khan, nôn mửa, tiêu chảy.",
+      "price_hint": 95000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Sinh Khương",
+      "origin": "Thân rễ tươi của cây Gừng (Zingiber officinale Roscoe), họ Gừng (Zingiberaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "TY",
+        "VI"
+      ],
+      "tags": [
+        "cam_mao",
+        "tan_han",
+        "ho",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Giải biểu tán hàn, ôn trung chỉ ố, hóa đờm chỉ khái. Dùng trị cảm mạo phong hàn, nôn mửa, ho.",
+      "price_hint": 65000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Can Khương",
+      "origin": "Thân rễ phơi khô của cây Gừng (Zingiber officinale Roscoe), họ Gừng (Zingiberaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "TY",
+        "VI",
+        "TAM"
+      ],
+      "tags": [
+        "tan_han",
+        "ho",
+        "on_ty",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Ôn trung tán hàn, hồi dương thông mạch, táo thấp hóa đờm. Dùng trị lạnh bụng, ho, tiêu chảy.",
+      "price_hint": 75000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Bạch Mao Căn",
+      "origin": "Rễ củ cây Cỏ tranh (Imperata cylindrica (L.) P. Beauv.), họ Hòa thảo (Poaceae)",
+      "flavors": [
+        "NGOT"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE",
+        "VI",
+        "BANG_QUANG"
+      ],
+      "tags": [
+        "ho_ra_mau",
+        "thanh_nhiet",
+        "chi_huyet",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Lương huyết chỉ huyết, thanh nhiệt lợi niệu. Dùng trị ho ra máu, chảy máu cam, tiểu ra máu.",
+      "price_hint": 55000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Bạch Cập",
+      "origin": "Rễ củ cây Bạch cập (Bletilla striata (Thunb.) Rchb. f.), họ Lan (Orchidaceae)",
+      "flavors": [
+        "CAY",
+        "DANG",
+        "NGOT"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "VI",
+        "CAN"
+      ],
+      "tags": [
+        "chi_huyet",
+        "ho_ra_mau",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Chỉ huyết nhuận phế, sinh cơ liêm sang. Dùng trị ho ra máu, loét dạ dày, bỏng da.",
+      "price_hint": 225000,
+      "unit": "Gói 250g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Sinh Địa",
+      "origin": "Rễ củ tươi hay phơi khô của cây Địa hoàng (Rehmannia glutinosa (Gaertn.) DC.), họ Hoa mõm chó (Orobanchaceae)",
+      "flavors": [
+        "NGOT",
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "TAM",
+        "CAN",
+        "THAN"
+      ],
+      "tags": [
+        "thanh_nhiet",
+        "duong_am",
+        "ho_ra_mau",
+        "dong_y_co_dien"
+      ],
+      "short_desc": "Thanh nhiệt lương huyết, dưỡng âm sinh tân. Dùng trị ho ra máu, sốt nóng, khát nước, ban chẩn.",
+      "price_hint": 115000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "Ma Hoàng",
+      "origin": "Cành khô của cây Ma hoàng (Ephedra sinica Stapf), họ Ma hoàng (Ephedraceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "BANG_QUANG"
+      ],
+      "tags": [
+        "cam_mao",
+        "phat_han",
+        "binh_suyen"
+      ],
+      "short_desc": "Phát hãn giải biểu, tuyên phế bình suyễn, lợi niệu tiêu thũng. Dùng trị cảm mạo phong hàn, suyễn thở, phù thũng.",
+      "price_hint": 120000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "Bạch Giới Tử",
+      "origin": "Hạt quả chín phơi khô của cây Cải bẹ trắng (Sinapis alba L.), họ Cải (Brassicaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "tieu_dom",
+        "ho",
+        "giang_khi"
+      ],
+      "short_desc": "Ôn phế hóa đờm, lợi khí tán kết. Dùng trị ho suyễn do hàn đờm, đau tức ngực sườn.",
+      "price_hint": 85000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "La Hán Quả",
+      "origin": "Quả sấy khô của cây La hán (Siraitia grosvenorii (Swingle) C. Jeffrey), họ Bí (Cucurbitaceae)",
+      "flavors": [
+        "NGOT"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "PHE",
+        "DAI_TRANG"
+      ],
+      "tags": [
+        "thanh_nhiet",
+        "ho",
+        "nhuan_trang"
+      ],
+      "short_desc": "Thanh nhiệt nhuận phế, lợi hầu, chỉ khái, nhuận tràng. Dùng trị ho do phế nhiệt, viêm họng, táo bón.",
+      "price_hint": 180000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Bạch Tiền",
+      "origin": "Thân rễ cây Bạch tiền (Cynanchum stauntonii (Decne.) Schltr. ex H.Lév.), họ Trúc đào (Apocynaceae)",
+      "flavors": [
+        "CAY",
+        "NGOT"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "chi_khai",
+        "tieu_dom",
+        "giang_khi"
+      ],
+      "short_desc": "Giáng khí hóa đờm, chỉ khái. Dùng trị ho có nhiều đờm, viêm phế quản, suyễn thở.",
+      "price_hint": 150000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Bản thảo cương mục"
+    },
+    {
+      "name": "Mã Bột",
+      "origin": "Thể quả sấy khô của nấm Mã bột (Lasiosphaera fenzlii Reich.), họ Nấm xốp (Lycoperdaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "viem_hong",
+        "thanh_nhiet",
+        "chi_huyet"
+      ],
+      "short_desc": "Thanh phế lợi yết, giải độc chỉ huyết. Dùng trị viêm họng sưng đau, ho mất tiếng, chảy máu cam.",
+      "price_hint": 220000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Bản thảo cương mục"
+    },
+    {
+      "name": "Đình Lịch Tử",
+      "origin": "Hạt sấy khô của cây Đình lịch (Descurainia sophia (L.) Webb ex Prantl), họ Cải (Brassicaceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE",
+        "BANG_QUANG"
+      ],
+      "tags": [
+        "binh_suyen",
+        "tieu_dom",
+        "hanh_thuy"
+      ],
+      "short_desc": "Tả phế bình suyễn, hành thủy tiêu thũng. Dùng trị ho suyễn do đờm nhiệt, đờm ẩm ứ đọng, phù thũng.",
+      "price_hint": 140000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "Toàn Phúc Hoa",
+      "origin": "Cụm hoa khô của cây Toàn phúc hoa (Inula japonica Thunb.), họ Cúc (Asteraceae)",
+      "flavors": [
+        "CAY",
+        "DANG",
+        "MAN"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "TY",
+        "VI"
+      ],
+      "tags": [
+        "giang_khi",
+        "tieu_dom",
+        "chi_khai"
+      ],
+      "short_desc": "Giáng khí hóa đờm, chỉ ẩu. Dùng trị ho suyễn do đờm ẩm, nôn mửa, ợ hơi.",
+      "price_hint": 160000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "Trúc Lịch",
+      "origin": "Nước nướng ép từ thân tươi của cây Trúc (Phyllostachys nigra (Lodd.) Munro), họ Lúa (Poaceae)",
+      "flavors": [
+        "NGOT",
+        "DANG"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "TAM",
+        "PHE",
+        "CAN"
+      ],
+      "tags": [
+        "thanh_nhiet",
+        "tieu_dom",
+        "khai_khieu"
+      ],
+      "short_desc": "Thanh nhiệt trừ đờm, trấn kinh, khai khiếu. Dùng trị đờm nhiệt dẫn đến trúng phong, kinh giật, ho suyễn đờm đặc.",
+      "price_hint": 250000,
+      "unit": "Lọ 100ml",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Danh y biệt lục"
+    },
+    {
+      "name": "Thiên Nam Tinh",
+      "origin": "Thân rễ khô của cây Thiên nam tinh (Arisaema erubescens (Wall.) Schott), họ Ráy (Araceae)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "CAN",
+        "TY"
+      ],
+      "tags": [
+        "tieu_dom",
+        "khu_phong",
+        "chi_kinh"
+      ],
+      "short_desc": "Táo thấp hóa đờm, khứ phong chỉ kinh, tiêu thũng tán kết. Dùng trị ho đờm, phong đờm chóng mặt, trúng phong.",
+      "price_hint": 135000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "Tân Di",
+      "origin": "Búp hoa phơi khô của cây Tân di (Magnolia biondii Pamp.), họ Mộc lan (Magnoliaceae)",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "thong_tỵ",
+        "cam_mao",
+        "tan_han"
+      ],
+      "short_desc": "Tán phong hàn, thông tỵ khiếu. Dùng trị cảm mạo phong hàn, viêm nghẹt mũi, viêm xoang, sổ mũi.",
+      "price_hint": 185000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "Thuyền Thoái",
+      "origin": "Xác lột của con ve sầu (Cryptotympana pustulata Fabricius), họ Ve sầu (Cicadidae)",
+      "flavors": [
+        "NGOT",
+        "MAN"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE",
+        "CAN"
+      ],
+      "tags": [
+        "cam_mao",
+        "khan_tieng",
+        "thau_chan"
+      ],
+      "short_desc": "Tán phong nhiệt, lợi yết, thấu chẩn, thoái ế. Dùng trị cảm phong nhiệt, viêm họng khản tiếng, sởi không mọc.",
+      "price_hint": 350000,
+      "unit": "Gói 100g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Bản thảo cương mục"
+    },
+    {
+      "name": "Thạch Vĩ",
+      "origin": "Lá phơi khô của cây Thạch vĩ (Pyrrosia lingua (Thunb.) Farwell), họ Cỏ chổi (Polypodiaceae)",
+      "flavors": [
+        "DANG",
+        "NGOT"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE",
+        "BANG_QUANG"
+      ],
+      "tags": [
+        "chi_khai",
+        "thanh_nhiet",
+        "loi_nieu"
+      ],
+      "short_desc": "Lợi niệu thông lâm, thanh phế chỉ khái, lương huyết chỉ huyết. Dùng trị ho suyễn do phế nhiệt, đái buốt.",
+      "price_hint": 115000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Thần Nông bản thảo kinh"
+    },
+    {
+      "name": "Hải Phù Thạch",
+      "origin": "Khối đá bọt núi lửa (Pumice), chủ yếu là silicon dioxide (SiO2)",
+      "flavors": [
+        "MAN"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "thanh_nhiet",
+        "tieu_dom",
+        "nhuyen_kien"
+      ],
+      "short_desc": "Thanh nhiệt hóa đờm, nhuyễn kiên tán kết. Dùng trị ho có đờm nhiệt, bướu cổ, tràng nhạc.",
+      "price_hint": 65000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Bản thảo cương mục"
+    },
+    {
+      "name": "Trắc Bá Diệp",
+      "origin": "Cành và lá phơi khô của cây Trắc bách (Platycladus orientalis (L.) Franco), họ Hoàng đàn (Cupressaceae)",
+      "flavors": [
+        "DANG",
+        "CHAT"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE",
+        "CAN",
+        "TY"
+      ],
+      "tags": [
+        "chi_huyet",
+        "chi_khai",
+        "hoa_dom"
+      ],
+      "short_desc": "Lương huyết chỉ huyết, hóa đờm chỉ khái. Dùng trị ho ra máu, chảy máu cam, rụng tóc, viêm phế quản.",
+      "price_hint": 70000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam"
+    },
+    {
+      "name": "Phật Thủ",
+      "origin": "Quả phơi khô của cây Phật thủ (Citrus medica L. var. sarcodactylis Swingle), họ Cam (Rutaceae)",
+      "flavors": [
+        "CAY",
+        "DANG",
+        "CHUA"
+      ],
+      "property": "ON",
+      "meridians": [
+        "CAN",
+        "TY",
+        "VI",
+        "PHE"
+      ],
+      "tags": [
+        "ly_khi",
+        "hoa_dom",
+        "thu_can"
+      ],
+      "short_desc": "Thư can lý khí, hòa vị chỉ thống, táo thấp hóa đờm. Dùng trị đau vùng thượng vị, ho đờm lâu ngày.",
+      "price_hint": 190000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam"
+    }
+  ]
+}

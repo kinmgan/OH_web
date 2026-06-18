@@ -1,0 +1,398 @@
+Collection: health_articles | Points: 3077
+Running 10 test queries (top_k=5)...
+
+  [EXPAND] Thoai hoa khop goi la gi? → Thoai hoa khop goi la gi? thoái hóa khớp gối thoái hóa đầu gối bệnh thoái hóa khớp gối thoái hóa khớp thoái hóa x
+ơng khớp bệnh thoái hóa khớp
+============================================================
+Q: Thoai hoa khop goi la gi?
+  Expected to find: dinh nghia, trieu chung, nguyen nhan thoai hoa khop goi
+  Top-20 results (reranked):
+  [OK] #1 combined=0.665 (vec=0.382, kw=1.218, title=1.1) | chunk=1000/14 | [**Tổng quan về thoái hóa khớp gối? Thoái hóa khớp gối là gì?**]
+      Article : Thoái Hóa Khớp Gối
+      Content : ## **Tổng quan về thoái hóa khớp gối? Thoái hóa khớp gối là gì?**
+
+Thoái hóa khớp gối M17 đang gia tăng chóng mặt và ngày càng có xu hướng trẻ hóa. Đây là căn bệnh diễn tiến âm thầm nên rất ít trường ...
+
+  [OK] #2 combined=0.663 (vec=0.376, kw=1.342, title=1.0) | chunk=5003/14 | [**Thoái hóa khớp gối nên làm gì? Các phương pháp điều trị tốt nhất**]
+      Article : Thoái Hóa Khớp Gối
+      Content : a phương pháp là nhằm giảm các cơn đau, duy trì chức năng xương khớp, đồng thời hạn chế hoặc làm chậm quá trình tổn thương khớp gối. Dưới đây là các phương pháp vật lý trị liệu phổ biến nhất hiện nay....
+
+  [OK] #3 combined=0.650 (vec=0.356, kw=1.342, title=1.0) | chunk=5001/14 | [**Thoái hóa khớp gối nên làm gì? Các phương pháp điều trị tốt nhất**]
+      Article : Thoái Hóa Khớp Gối
+      Content : Phẫu thuật khớp gối là phương pháp được áp dụng với nhiều bệnh nhân
+
+Tùy vào tình trạng bệnh và cơ địa của bệnh nhân, các bác sĩ sẽ đưa ra những phương pháp điều trị khác nhau như:
+
+* **Phẫu thuật nội...
+
+  [OK] #4 combined=0.642 (vec=0.362, kw=1.285, title=1.0) | chunk=5000/12 | [**Cách điều trị thoái hóa khớp tay hiệu quả**]
+      Article : Thoái Hoá Khớp Tay
+      Content : ## **Cách điều trị thoái hóa khớp tay hiệu quả**
+
+Việc chẩn đoán thoái hóa khớp tay sẽ bắt đầu bằng tiền sử bệnh. Bác sĩ sẽ thảo luận về sự xuất hiện của chấn thương trong quá khứ và khuynh hướng của ...
+
+  [OK] #5 combined=0.638 (vec=0.356, kw=1.285, title=1.0) | chunk=1000/12 | [Thoái hóa cột sống là gì?]
+      Article : Thoái Hóa Cột Sống
+      Content : ## Thoái hóa cột sống là gì?
+
+Thoái hóa cột sống tiếng Anh là Degenerative Spine, thuật ngữ y khoa chỉ tình trạng viêm xương khớp tại cột sống. Đây là bệnh mãn tính, có thể xảy ra ở cột sống cổ, cột s...
+
+  [EXPAND] Dau day than kinh lien suon → Dau day than kinh lien suon đau dây thần kinh liên sườn đau thần kinh liên sườn đau dây thần kinh giữa các khe sườn đau dây thần kinh tổn thương dây thần kinh
+============================================================
+Q: Dau day than kinh lien suon
+  Expected to find: trieu chung va cach dieu tri dau day than kinh lien suon
+  Top-20 results (reranked):
+  [OK] #1 combined=0.847 (vec=0.619, kw=1.361, title=1.1) | chunk=1000/12 | [**Đau dây thần kinh liên sườn là gì?**]
+      Article : Đau Dây Thần Kinh Liên Sườn
+      Content : ## **Đau dây thần kinh liên sườn là gì?**
+
+Dây thần kinh liên sườn là dây thần kinh xuất phát từ tủy ngực D1 – D12 chạy dọc theo bờ dưới của các xương sườn. Cùng với động mạch, tĩnh mạch tạo thành bó ...
+
+  [OK] #2 combined=0.754 (vec=0.506, kw=1.260, title=1.1) | chunk=3000/12 | [Triệu chứng đau thần kinh liên sườn thường gặp]
+      Article : Đau Dây Thần Kinh Liên Sườn
+      Content : ## Triệu chứng đau thần kinh liên sườn thường gặp
+
+Biểu hiện đau dây thần kinh liên sườn thường được nhận biết thông qua những triệu chứng sau đây: 
+
+* Đau một bên sườn, cơn đau có thể tiến triển phía...
+
+  [OK] #3 combined=0.739 (vec=0.518, kw=1.260, title=1.0) | chunk=0/12 | [Nội dung chính]
+      Article : Đau Dây Thần Kinh Liên Sườn
+      Content : **[Đau dây thần kinh liên sườn](https://dongphuongyphap.net/benh-dieu-tri/dau-day-than-kinh-lien-suon) là một trong các bệnh thường gặp ở người trưởng thành, gây ra khá nhiều đau nhức, phiền toái ảnh ...
+
+  [OK] #4 combined=0.691 (vec=0.409, kw=1.260, title=1.1) | chunk=5004/12 | [**Các phương pháp điều trị đau thần kinh liên sườn phổ biến hiện nay**]
+      Article : Đau Dây Thần Kinh Liên Sườn
+      Content : hân gây bệnh.
+* Thực hiện xoa bóp 30 phút/ lần/ ngày. Mỗi liệu trình điều trị kéo dài từ 15 – 30 ngày tùy theo tình trạng cụ thể của từng bệnh nhân để làm giảm tình trạng phong bế thần kinh liên sườn....
+
+  [OK] #5 combined=0.679 (vec=0.391, kw=1.260, title=1.1) | chunk=5005/12 | [**Các phương pháp điều trị đau thần kinh liên sườn phổ biến hiện nay**]
+      Article : Đau Dây Thần Kinh Liên Sườn
+      Content : m.
+* Tiếp theo luồn chỉ vào nóng kim.
+* Xác định huyệt cần cấy chỉ và thực hiện sát trùng.
+* Châm kim qua da rồi đưa chỉ vào huyệt.
+* Sau khi châm dán băng vô trùng hoặc gạc vô trùng vào vị trí huyệt....
+
+  [EXPAND] Cach chua thoat vi dia dem → Cach chua thoat vi dia dem thoát vị đĩa đệm thoát vị đĩa đệm cột sống thoát vị đĩa đệm cổ thoát vị đĩa đệm thắt lưng
+============================================================
+Q: Cach chua thoat vi dia dem
+  Expected to find: phuong phap dieu tri thoat vi dia dem
+  Top-20 results (reranked):
+  [OK] #1 combined=0.798 (vec=0.543, kw=1.361, title=1.1) | chunk=7000/11 | [Làm thế nào để phòng ngừa thoát vị đĩa đệm thắt lưng?]
+      Article : Thoát Vị Đĩa Đệm Cột Sống Thắt Lưng
+      Content : ## Làm thế nào để phòng ngừa thoát vị đĩa đệm thắt lưng?
+
+Qua những thông tin trên, có thể thấy thoát vị đĩa đệm thắt lưng được hình thành từ thói quen không tốt và quá trình lão hóa. Vì vậy, bạn hoàn...
+
+  [OK] #2 combined=0.774 (vec=0.493, kw=1.405, title=1.1) | chunk=5000/11 | [Chẩn đoán thoát vị đĩa đệm cột sống thắt lưng]
+      Article : Thoát Vị Đĩa Đệm Cột Sống Thắt Lưng
+      Content : ## Chẩn đoán thoát vị đĩa đệm cột sống thắt lưng
+
+Khi phát hiện các dấu hiệu bất thường trên cơ thể, người bệnh nên nhanh chóng đến cơ sở y tế để được thăm khám và có phác đồ điều trị. Bác sĩ sẽ chẩn ...
+
+  [OK] #3 combined=0.766 (vec=0.508, kw=1.313, title=1.1) | chunk=1000/11 | [Thoát vị đĩa đệm đốt sống cổ là gì?]
+      Article : Thoát Vị Đĩa Đệm Cổ
+      Content : ## Thoát vị đĩa đệm đốt sống cổ là gì?
+
+Cột sống cổ của con người cấu tạo từ 7 đốt sống trên cùng (C1-C7), được phân cách nhau bằng các đĩa đệm có chức năng nâng đỡ, bảo vệ các đầu xương cột sống, đồn...
+
+  [OK] #4 combined=0.753 (vec=0.474, kw=1.361, title=1.1) | chunk=6000/11 | [Biện pháp chẩn đoán thoát vị đĩa đệm cột sống cổ]
+      Article : Thoát Vị Đĩa Đệm Cổ
+      Content : ## Biện pháp chẩn đoán thoát vị đĩa đệm cột sống cổ
+
+Để chẩn đoán bệnh thoát vị đĩa đệm, bên cạnh thăm khám lâm sàng, các bác sĩ sẽ cần tiến hành xét nghiệm chuyên sâu thông qua các phương pháp chẩn đ...
+
+  [OK] #5 combined=0.743 (vec=0.446, kw=1.405, title=1.1) | chunk=1000/11 | [Thoát vị đĩa đệm cột sống thắt lưng là gì?]
+      Article : Thoát Vị Đĩa Đệm Cột Sống Thắt Lưng
+      Content : ## Thoát vị đĩa đệm cột sống thắt lưng là gì?
+
+Đĩa đệm cột sống thắt lưng là bộ phận phải chịu tác động thường xuyên bởi các vận động hằng ngày. Chúng giữ vai trò đàn hồi, làm giảm chấn động tới thân ...
+
+  [EXPAND] Dau vai gay → Dau vai gay đau vai gáy đau cổ vai đau cổ vai gáy hội chứng cổ vai cánh tay đau cơ cổ đau vai
+============================================================
+Q: Dau vai gay
+  Expected to find: nguyen nhan, trieu chung, cach tri dau vai gay
+  Top-20 results (reranked):
+  [OK] #1 combined=0.771 (vec=0.512, kw=1.439, title=1.0) | chunk=1000/8 | [**Đau vai gáy là bệnh gì?**]
+      Article : Đau Vai Gáy
+      Content : ## **Đau vai gáy là bệnh gì?**
+
+Đau vai gáy, tên tiếng anh chuyên ngành là Cervicalgia, thông thường được gọi là Neck and shoulder pain, thuộc nhóm bệnh liên quan cột sống cổ. Theo **Phân loại quốc tế...
+
+  [OK] #2 combined=0.717 (vec=0.489, kw=1.246, title=1.0) | chunk=2001/8 | [**Nguyên nhân gây ra bệnh đau vai gáy**]
+      Article : Đau Vai Gáy
+      Content : Thông thường, với những tác nhân cơ học, tình trạng bệnh sẽ nhẹ hơn và người bệnh có thể dễ dàng kiểm soát và điều trị hơn vì có liên quan trực tiếp đến thói quen sinh hoạt hàng ngày của người bệnh.
+
+...
+
+  [OK] #3 combined=0.704 (vec=0.469, kw=1.246, title=1.0) | chunk=2002/8 | [**Nguyên nhân gây ra bệnh đau vai gáy**]
+      Article : Đau Vai Gáy
+      Content : u nhức vai gáy.
+* **Lứa tuổi:** Có một số lứa tuổi khả năng bị đau vai gáy cao hơn với các lứa tuổi khác, ví dụ như trung niên, người già hoặc đau vai gáy ở tuổi dậy thì
+
+### **Nguyên nhân bên trong**...
+
+  [OK] #4 combined=0.701 (vec=0.524, kw=1.052, title=1.0) | chunk=0/8 | [Nội dung chính]
+      Article : Đau Vai Gáy
+      Content : **[Đau vai gáy](https://dongphuongyphap.net/benh-dieu-tri/dau-vai-gay) là một trong những căn bệnh vô cùng quen thuộc, có thể gặp ở nhiều người và nhiều lứa tuổi khác nhau, nhưng thường đặc biệt phổ b...
+
+  [OK] #5 combined=0.680 (vec=0.337, kw=1.439, title=1.1) | chunk=1000/7 | [Chứng đau cơ cổ bên phải có nguy hiểm không?]
+      Article : Đau Cơ Cổ Bên Phải
+      Content : ## Chứng đau cơ cổ bên phải có nguy hiểm không?
+
+Vùng cơ cổ giữ vai trò rất quan trọng vì được nối với các bộ phận như đầu, vai, lưng và hàm. Cơ cổ rất dễ bị tổn thương, dẫn đến sưng, viêm và đau nhức...
+
+  [EXPAND] Viem khop dang that → Viem khop dang that viêm khớp viêm khớp dạng thấp viêm đa khớp dạng thấp
+============================================================
+Q: Viem khop dang that
+  Expected to find: trieu chung, nguyen nhan viem khop dang that
+  Top-20 results (reranked):
+  [OK] #1 combined=0.651 (vec=0.374, kw=1.287, title=1.0) | chunk=2000/13 | [Nhận biết giai đoạn phát triển của bệnh giúp điều trị bệnh đúng cách]
+      Article : Viêm Khớp Dạng Thấp
+      Content : ## Nhận biết giai đoạn phát triển của bệnh giúp điều trị bệnh đúng cách
+
+Theo bác sĩ Doãn Hồng Phương – Giám đốc Trung tâm Đông phương Y pháp cho biết, viêm khớp dạng thấp được chia thành nhiều giai đ...
+
+  [OK] #2 combined=0.643 (vec=0.357, kw=1.193, title=1.1) | chunk=8000/13 | [Điều trị viêm khớp dạng thấp bằng vật lý trị liệu]
+      Article : Viêm Khớp Dạng Thấp
+      Content : ## Điều trị viêm khớp dạng thấp bằng vật lý trị liệu
+
+Điều trị viêm khớp dạng thấp bằng Tây y là nỗi lo của nhiều bệnh nhân mắc bệnh tim mạch hay tiền sử bệnh gan thận, dạ dày,… Bởi thuốc chứa nhiều t...
+
+  [OK] #3 combined=0.610 (vec=0.341, kw=1.193, title=1.0) | chunk=2001/11 | [Vì sao bị đau nhức xương khớp?]
+      Article : Đau Nhức Xương Khớp
+      Content : Đau nhức xương khớp phổ biến ở người cao tuổi
+
+### Nguyên nhân bệnh lý chấm dứt đau nhức xương khớp
+
+Bên cạnh nguyên nhân sinh lý, dấu hiệu của một số bệnh lý trong đó phải kể đến:
+
+* **Thoái hóa khớp...
+
+  [OK] #4 combined=0.605 (vec=0.369, kw=1.076, title=1.0) | chunk=5000/7 | [5. Những biến chứng của viêm họng]
+      Article : Mua-he-viem-hong-nhieu-co-hoi-tai-phat
+      Content : ## 5. Những biến chứng của viêm họng
+
+### 5.1. Áp-xe amidan, áp-xe thành họng
+
+Nếu không chữa trị kịp thời, viêm họng có thể gây áp xe hoặc viêm tấy quanh họng, quanh amidan. Đối với trẻ nhỏ , viêm họ...
+
+  [OK] #5 combined=0.574 (vec=0.372, kw=0.914, title=1.0) | chunk=5003/12 | [**Cách điều trị thoái hóa khớp tay hiệu quả**]
+      Article : Thoái Hoá Khớp Tay
+      Content : ### **Vật lý trị liệu giúp giảm đau, điều trị thoái hóa khớp tay hiệu quả**
+
+Với nền y học phát triển như hiện nay, chữa đau nhức do thoái hóa khớp tay không dùng thuốc đang là một bước tiến mới. Các ...
+
+  [EXPAND] Mat ngu kinh nien → Mat ngu kinh nien mất ngủ mất ngủ kinh niên mất ngủ mãn tính rối loạn giấc ngủ insomnia
+============================================================
+Q: Mat ngu kinh nien
+  Expected to find: cach dieu tri mat ngu
+  Top-20 results (reranked):
+  [OK] #1 combined=0.793 (vec=0.542, kw=1.342, title=1.1) | chunk=1000/9 | [Bị mất ngủ kinh niên là gì?]
+      Article : Mất Ngủ Kinh Niên
+      Content : ## Bị mất ngủ kinh niên là gì?
+
+Chứng mất ngủ kinh niên là tình trạng bệnh nhân khó đi vào giấc hoặc đảm bảo một giấc ngủ sâu liền mạch tới sáng trong suốt thời gian dài. Thông thường, những người mất...
+
+  [OK] #2 combined=0.781 (vec=0.621, kw=1.138, title=1.0) | chunk=0/9 | [Nội dung chính]
+      Article : Mất Ngủ Kinh Niên
+      Content : **[Bệnh mất ngủ kinh niên](https://dongphuongyphap.net/benh-dieu-tri/mat-ngu-kinh-nien) là tình trạng bất cứ ai cũng có thể gặp phải không phân biệt già hay trẻ theo đó người bệnh sẽ thường xuyên gặp ...
+
+  [OK] #3 combined=0.748 (vec=0.508, kw=1.342, title=1.0) | chunk=4000/9 | [Chẩn đoán mất ngủ lâu năm]
+      Article : Mất Ngủ Kinh Niên
+      Content : ## Chẩn đoán mất ngủ lâu năm
+
+Để có thể điều trị bệnh mất ngủ kinh niên đạt hiệu quả tốt, cho tác dụng nhanh chóng và rõ rệt nhất, bệnh nhân cần phải được thăm khám chi tiết bởi các bác sĩ. Hiện nay, ...
+
+  [OK] #4 combined=0.725 (vec=0.437, kw=1.342, title=1.1) | chunk=6000/9 | [**Kinh nghiệm chữa mất ngủ kinh niên hiệu quả cao**]
+      Article : Mất Ngủ Kinh Niên
+      Content : ## **Kinh nghiệm chữa mất ngủ kinh niên hiệu quả cao**
+
+Mất ngủ là bệnh lý phổ biến thường gặp ở nhiều đối tượng khác nhau, mỗi người đều có cách chữa trị phù hợp tùy theo chứng trạng của mình. Vậy nê...
+
+  [OK] #5 combined=0.714 (vec=0.459, kw=1.218, title=1.1) | chunk=3000/9 | [Triệu chứng mất ngủ kinh niên]
+      Article : Mất Ngủ Kinh Niên
+      Content : ## Triệu chứng mất ngủ kinh niên
+
+Về cơ bản triệu chứng mất ngủ kinh niên ở các bệnh nhân sẽ giống nhau. Tuy nhiên, mức độ sẽ có sự khác biệt tùy vào nguyên nhân cũng như sức khỏe thực tế của mỗi ngườ...
+
+  [EXPAND] Dau lung gian day chang → Dau lung gian day chang đau lưng đau thắt lưng đau lưng dưới đau lưng giãn dây chằng
+============================================================
+Q: Dau lung gian day chang
+  Expected to find: nguyen nhan va cach tri dau lung
+  Top-20 results (reranked):
+  [OK] #1 combined=0.776 (vec=0.584, kw=1.231, title=1.0) | chunk=3000/9 | [**Triệu chứng đau dây chằng lưng**]
+      Article : Đau Lưng Giãn Dây Chằng
+      Content : ## **Triệu chứng đau dây chằng lưng**
+
+Khi bị giãn dây chằng vùng lưng, người bệnh thường có thể nhận biết bằng một số dấu hiệu sau:
+
+* Xuất hiện những cơn đau đột ngột, đặc biệt là sau khi bưng bê đồ...
+
+  [OK] #2 combined=0.769 (vec=0.500, kw=1.360, title=1.1) | chunk=2000/9 | [**Nguyên nhân dẫn đến đau lưng giãn dây chằng**]
+      Article : Đau Lưng Giãn Dây Chằng
+      Content : ## **Nguyên nhân dẫn đến đau lưng giãn dây chằng**
+
+Giãn dây chằng cột sống thắt lưng gây ra các cơn đau vùng lưng thường do một số nguyên nhân sau:
+
+* **Vận động với cường độ quá cao:** Khi thường xu...
+
+  [OK] #3 combined=0.750 (vec=0.524, kw=1.300, title=1.0) | chunk=0/9 | [Nội dung chính]
+      Article : Đau Lưng Giãn Dây Chằng
+      Content : **Đau lưng do giãn dây chằng là tình trạng rất dễ gặp phải ở nhiều độ tuổi khác nhau, nhất là người lao động nặng hoặc người già. Vậy triệu chứng nào để nhận biết bệnh và đâu là cách khắc phục hiệu qu...
+
+  [OK] #4 combined=0.746 (vec=0.504, kw=1.231, title=1.1) | chunk=4003/9 | [**Cách chữa đau lưng giãn dây chằng**]
+      Article : Đau Lưng Giãn Dây Chằng
+      Content : * Dùng lực bàn và các ngón tay tác động với lực vừa phải lên vùng lưng đang bị đau và xoa bóp nhẹ nhàng theo chuyển động tròn.
+* Massage trong khoảng 30 phút mỗi ngày các triệu chứng bệnh sẽ giảm dần....
+
+  [OK] #5 combined=0.740 (vec=0.472, kw=1.300, title=1.1) | chunk=4000/9 | [**Cách chữa đau lưng giãn dây chằng**]
+      Article : Đau Lưng Giãn Dây Chằng
+      Content : ## **Cách chữa đau lưng giãn dây chằng**
+
+Khi bị giãn dây chằng ở lưng người bệnh có thể khắc phục các cơn đau bằng cách:
+
+### **Sử dụng mẹo dân gian chữa đau do giãn dây chằng ở lưng**
+
+Đây là các mẹ...
+
+  [EXPAND] Roi loan tien dinh → Roi loan tien dinh rối loạn tiền đình rối loạn thần kinh tiền đình chóng mặt tiền đình bệnh tiền đình
+============================================================
+Q: Roi loan tien dinh
+  Expected to find: trieu chung va cach dieu tri roi loan tien dinh
+  Top-20 results (reranked):
+  [OK] #1 combined=0.718 (vec=0.395, kw=1.442, title=1.1) | chunk=1000/11 | [Tổng quát về chứng rối loạn tiền đình]
+      Article : Rối Loạn Tiền Đình
+      Content : ## Tổng quát về chứng rối loạn tiền đình
+
+Tiền đình là một bộ phận thuộc hệ thần kinh, vị trí nằm ở phía sau ốc tai hai bên. Vai trò của bộ phận này là để cân bằng cơ thể, duy trì trạng thái thăng bằn...
+
+  [OK] #2 combined=0.697 (vec=0.363, kw=1.442, title=1.1) | chunk=3000/11 | [Đối tượng có nguy cơ rối loạn tiền đình cao nhất?]
+      Article : Rối Loạn Tiền Đình
+      Content : ## Đối tượng có nguy cơ rối loạn tiền đình cao nhất?
+
+Những đối tượng nào có nguy cơ bị rối loạn tiền đình là câu hỏi được rất nhiều người quan tâm. Nhiều nghiên cứu đã được thực hiện để tìm hiểu về v...
+
+  [OK] #3 combined=0.691 (vec=0.402, kw=1.285, title=1.1) | chunk=4000/11 | [Chẩn đoán rối loạn tiền đình nhanh chóng phát hiện bệnh từ sớm]
+      Article : Rối Loạn Tiền Đình
+      Content : ## Chẩn đoán rối loạn tiền đình nhanh chóng phát hiện bệnh từ sớm
+
+Thăm khám lâm sàng và hỏi tiền sử bệnh sẽ giúp các bác sĩ lựa chọn xét nghiệm để đánh giá chức năng hệ tiền đình. Không chỉ vậy, phươ...
+
+  [OK] #4 combined=0.682 (vec=0.371, kw=1.342, title=1.1) | chunk=1001/11 | [Tổng quát về chứng rối loạn tiền đình]
+      Article : Rối Loạn Tiền Đình
+      Content : o. Nhóm bệnh này thường ít gặp hơn, triệu chứng không rõ ràng.
+* Người bệnh thuộc nhóm này thường nguy hiểm và khó chữa hơn rất nhiều bởi yếu tố ngoại biên.
+
+### Rối loạn tiền đình có nguy hiểm không?...
+
+  [OK] #5 combined=0.679 (vec=0.367, kw=1.342, title=1.1) | chunk=2000/11 | [Những triệu chứng cảnh báo rối loạn tiền đình cần biết]
+      Article : Rối Loạn Tiền Đình
+      Content : ## Những triệu chứng cảnh báo rối loạn tiền đình cần biết
+
+Khi hệ thống tiền đình chịu tác động và gặp rối loạn sẽ có những “tín hiệu” cảnh báo khá rõ. Người bệnh cần đặc biệt chú ý khi gặp phải những...
+
+  [EXPAND] Thoai hoa cot song co → Thoai hoa cot song co thoái hóa đốt sống cổ thoái hóa cột sống cổ bệnh thoái hóa cột sống cổ
+============================================================
+Q: Thoai hoa cot song co
+  Expected to find: trieu chung va cach tri thoai hoa cot song co
+  Top-20 results (reranked):
+  [OK] #1 combined=0.713 (vec=0.413, kw=1.360, title=1.1) | chunk=1000/12 | [Thoái hóa cột sống là gì?]
+      Article : Thoái Hóa Cột Sống
+      Content : ## Thoái hóa cột sống là gì?
+
+Thoái hóa cột sống tiếng Anh là Degenerative Spine, thuật ngữ y khoa chỉ tình trạng viêm xương khớp tại cột sống. Đây là bệnh mãn tính, có thể xảy ra ở cột sống cổ, cột s...
+
+  [OK] #2 combined=0.682 (vec=0.366, kw=1.360, title=1.1) | chunk=1000/8 | [**Thoái hóa đốt sống cổ là gì?**]
+      Article : Thoái Hóa Đốt Sống Cổ
+      Content : ## **Thoái hóa đốt sống cổ là gì?**
+
+Theo bác sĩ Hồng Phương, trên cơ thể con người, có 7 đốt sống cổ và được ký hiệu C1, C2.. C7, ở mỗi đốt sẽ có một đĩa đệm có cấu tạo bởi nhân nhầy, mâm sụn và vòng...
+
+  [OK] #3 combined=0.668 (vec=0.344, kw=1.360, title=1.1) | chunk=4000/8 | [Bị thoái hóa đốt sống cổ có chữa khỏi được không?]
+      Article : Thoái Hóa Đốt Sống Cổ
+      Content : ## Bị thoái hóa đốt sống cổ có chữa khỏi được không?
+
+Đây là câu hỏi của rất nhiều bệnh nhân đang gặp vấn đề về đốt sống cổ, bác sĩ Phương cũng đã có những chia sẻ: 
+
+“Đối với những bệnh nhân bị thoái...
+
+  [OK] #4 combined=0.648 (vec=0.367, kw=1.300, title=1.0) | chunk=0/8 | [Nội dung chính]
+      Article : Thoái Hóa Đốt Sống Cổ
+      Content : **[Thoái hóa đốt sống cổ](https://dongphuongyphap.net/benh-dieu-tri/thoai-hoa-cot-song-co) là bệnh tập trung chủ yếu ở người cao tuổi, tuy nhiên nhiều năm trở lại đây tỷ lệ mắc bệnh đang có xu hướng t...
+
+  [OK] #5 combined=0.643 (vec=0.323, kw=1.414, title=1.0) | chunk=4000/11 | [**Cách phân biệt và chẩn đoán chính xác**]
+      Article : Thoái Hóa Khớp
+      Content : ## **Cách phân biệt và chẩn đoán chính xác**
+
+Thoái hóa xương khớp ở mỗi vị trí khác nhau thường biểu hiện bệnh khác nhau. Dựa vào đó mà chúng ta có thể chia thoái hóa khớp thành các dạng như sau:
+
+##...
+
+  [EXPAND] Dau nhuc xuong khop → Dau nhuc xuong khop đau nhức xương khớp đau xương khớp nhức xương khớp thoái hóa xương khớp
+============================================================
+Q: Dau nhuc xuong khop
+  Expected to find: nguyen nhan va cach dieu tri dau nhuc xuong khop
+  Top-20 results (reranked):
+  [OK] #1 combined=0.696 (vec=0.393, kw=1.340, title=1.1) | chunk=1000/11 | [Đau nhức xương khớp là gì? Bệnh có nguy hiểm không?]
+      Article : Đau Nhức Xương Khớp
+      Content : ## Đau nhức xương khớp là gì? Bệnh có nguy hiểm không?
+
+Đau nhức xương khớp (tên tiếng anh là Spavin) bệnh lý gây khó chịu ở bất kỳ khớp xương nào trên cơ thể, phổ biến ở vị trí như khớp vai, khớp hán...
+
+  [OK] #2 combined=0.673 (vec=0.443, kw=1.175, title=1.0) | chunk=3000/9 | [Dấu hiệu nhận biết thoái hóa đốt sống cổ c3 c4]
+      Article : Thoát Vị Đĩa Đệm Đốt Sống Cổ C3 C4
+      Content : ## Dấu hiệu nhận biết thoái hóa đốt sống cổ c3 c4
+
+Có thể thấy, thoái hóa đốt sống cổ C3 C4 có sự đe dọa rất lớn đến sức khỏe của bệnh nhân. Vì vậy, bạn cần nhận biết các triệu chứng bệnh để nhanh chó...
+
+  [OK] #3 combined=0.659 (vec=0.370, kw=1.340, title=1.0) | chunk=3000/9 | [**Triệu chứng đau dây chằng lưng**]
+      Article : Đau Lưng Giãn Dây Chằng
+      Content : ## **Triệu chứng đau dây chằng lưng**
+
+Khi bị giãn dây chằng vùng lưng, người bệnh thường có thể nhận biết bằng một số dấu hiệu sau:
+
+* Xuất hiện những cơn đau đột ngột, đặc biệt là sau khi bưng bê đồ...
+
+  [OK] #4 combined=0.656 (vec=0.366, kw=1.340, title=1.0) | chunk=3000/11 | [**Triệu chứng nhận biết các bệnh thoái hóa**]
+      Article : Thoái Hóa Khớp
+      Content : ## **Triệu chứng nhận biết các bệnh thoái hóa**
+
+Tình trạng thoái hóa xương khớp thường có những biểu hiện khá cụ thể và dễ nhận biết. Hãy dựa vào những triệu chứng dưới đây và nhanh chóng đi thăm khá...
+
+  [OK] #5 combined=0.649 (vec=0.378, kw=1.265, title=1.0) | chunk=4001/11 | [**Cách phân biệt và chẩn đoán chính xác**]
+      Article : Thoái Hóa Khớp
+      Content : h khi ngồi xổm, đứng dậy, leo cầu thang gặp nhiều khó khăn.
+* Tình trạng bệnh nặng hơn sẽ có dấu hiệu tê chân, biến dạng nhẹ ở khớp gối hoặc có thể mất khả năng di chuyển.
+
+### **Thoái hóa khớp háng**...
+
+============================================================
+SUMMARY TABLE
+============================================================
+  #   Question                                       Top Score         Score Spread
+--------------------------------------------------------------------------------
+  [OK] 1  Thoai hoa khop goi la gi?                          0.665          0.638-0.665
+  [OK] 2  Dau day than kinh lien suon                        0.847          0.679-0.847
+  [OK] 3  Cach chua thoat vi dia dem                         0.798          0.743-0.798
+  [OK] 4  Dau vai gay                                        0.771          0.680-0.771
+  [OK] 5  Viem khop dang that                                0.651          0.574-0.651
+  [OK] 6  Mat ngu kinh nien                                  0.793          0.714-0.793
+  [OK] 7  Dau lung gian day chang                            0.776          0.740-0.776
+  [OK] 8  Roi loan tien dinh                                 0.718          0.679-0.718
+  [OK] 9  Thoai hoa cot song co                              0.713          0.643-0.713
+  [OK] 10 Dau nhuc xuong khop                                0.696          0.649-0.696
+--------------------------------------------------------------------------------
+  Average top-score: 0.743
+
+  INTERPRETATION:
+    Score >= 0.5  : Very good -- chunk is highly relevant
+    Score 0.3-0.5: OK -- relevant but may miss nuance
+    Score < 0.3  : Poor  -- wrong chunk retrieved, chunking may be the cause
+
+  If many scores < 0.3:
+    1. Chunking may be splitting context badly
+    2. Embedding model may not capture medical terms well
+    3. Query and chunk language mismatch
+  If scores are 0.3-0.5:
+    Chunking is acceptable but try increasing max_chars or adding overlap

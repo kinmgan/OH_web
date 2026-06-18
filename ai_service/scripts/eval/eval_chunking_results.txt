@@ -1,0 +1,156 @@
+Scanning C:\Users\ngant\OH_web\ai_service\data_ingestion\crawlers\output ...
+[INFO] Chunks: 3077, Skipped index pages: 0
+
+============================================================
+PART 1 -- CHUNK SIZE STATISTICS
+============================================================
+  Total chunks         : 3077
+  Total chars          : 3,992,653
+  Min / Max / Avg      : 30 / 2200 / 1298
+  Median (P50)          : 1259
+  P25 / P75            : 795 / 1911
+
+  Size distribution:
+    < 200 chars (tiny)  :   42 (  1.4%)  <<< may lack context
+    200-499 (small)     :  332 ( 10.8%)
+    500-2000 (good)     : 2103 ( 68.3%)  <<< target range
+    2000-3000 (large)   :  600 ( 19.5%)
+    > 3000 (huge)       :    0 (  0.0%)  <<< may be hard to retrieve
+
+  [WARN] 42 tiny chunks (<200 chars) -- sample:
+    [Ich-Than-Vuong-co-tot-khong-Gia-bao-nhieu-Mua-o-au] 'Ích Thận Vương – Lựa chọn của nhiều người bị bệnh thận' (199 chars)
+      Ích Thận Vương được dược sĩ tại các nhà thuốc đánh giá cao
+
+Ích Thận Vương luôn là sản phẩm hiệu quả cho người mắc bệnh ...
+    [Cong-dung-cua-la-sen] 'Công dụng của lá sen: Chữa máu hôi không ra hết sau khi sinh' (173 chars)
+      ## Công dụng của lá sen: Chữa máu hôi không ra hết sau khi sinh
+
+Sao thơm 20-30g lá sen, tán nhỏ rồi uống với nước. Hoặc...
+    [Cong-dung-cua-la-sen] 'Công dụng của lá sen: Chữa rối loạn mỡ máu' (92 chars)
+      ## Công dụng của lá sen: Chữa rối loạn mỡ máu
+
+Lấy một lá sen khô, sắc nước uống trong ngày....
+
+============================================================
+PART 2 -- SECTION COVERAGE
+============================================================
+  Articles with >3 chunks : 56
+  Articles with >5 chunks : 14
+  Articles with >10 chunks: 1
+
+  Top 10 articles by chunk count:
+     11 chunks  Tim-hieu-ve-Giam-can-noi-khoa-inh-nghia-Nguyen-nha
+      7 chunks  Top 15 Món Ăn Trị Mất Ngủ Tốt Nhất Được Khuyên Dùn...
+      7 chunks  Uống Gì Để Giảm Mỡ Bụng Dưới? 14 Thức Uống Cho Hiệ...
+      7 chunks  Uống Gì Để Giảm Mỡ Bụng? 18 Đồ Uống Nên Sử Dụng Mỗ...
+      7 chunks  15 Loại Sữa Dành Cho Người Tiểu Đường Và Cao Huyết...
+      6 chunks  Đau Dây Thần Kinh Liên Sườn
+      6 chunks  12 Món Ăn Chữa Mất Ngủ Cho Bà Bầu Và Bổ Dưỡng Cho ...
+      6 chunks  Top 7 Sữa Dành Cho Người Tai Biến Chuyên Gia Khuyê...
+      6 chunks  11 Cách Làm Sữa Hạt Giảm Mỡ Bụng, Giảm Cân Phổ Biế...
+      6 chunks  Ăn Gì Để Giảm Mỡ Bụng Dưới? 14 Thực Phẩm Nên Bổ Su...
+
+============================================================
+PART 3 -- CROSS-SECTION RISK (chunks with >1 H2 heading)
+============================================================
+  All chunks contain at most 1 H2 heading -- looks clean!
+
+============================================================
+PART 4 -- INGESTION SUMMARY
+============================================================
+  By section:
+    Duoc lieu                      : 2197 chunks
+    benh-dieu-tri                  :  462 chunks
+    dinh-duong                     :  418 chunks
+
+  By source (top 5):
+    https://thaythuocvietnam.vn/huong-dan-su-dung-smecta/        :   19 chunks
+    https://thaythuocvietnam.vn/huong-dan-su-dung-forlax/        :   19 chunks
+    https://thaythuocvietnam.vn/huong-dan-su-dung-tanakan/       :   18 chunks
+    https://thaythuocvietnam.vn/duoc-lieu-cau-ky-tu/             :   17 chunks
+    https://dongphuongyphap.net/benh-dieu-tri/day-than-kinh-so-7 :   15 chunks
+
+============================================================
+PART 5 -- SAMPLE CHUNKS FOR MANUAL REVIEW
+============================================================
+  Review these by eye. Good chunks should:
+  - Have complete semantic sense (not mid-sentence)
+  - Contain useful medical info (not just nav/toC)
+  - Not be too short (<100 chars) or too long (>2000 chars)
+
+  --- Chunk 1/5 ---
+  File     : \thaythuocvietnam\279_Huong-dan-su-dung-Tanakan-ung-cach.md
+  Article  : Huong-dan-su-dung-Tanakan-ung-cach
+  Section  : **10. TƯƠNG TÁC, TƯƠNG KỴ CỦA THUỐC**
+  Size     : 1116 chars / 208 words
+  Content  :
+    ## **10. TƯƠNG TÁC, TƯƠNG KỴ CỦA THUỐC**
+
+***Tương tác:***
+
+Nếu thuốc uống cùng với thuốc chống đông (ví dụ: phenprocoumon & warfarin) hoặc thuốc kháng tiểu cầu (ví dụ: clopidogrel, acetylsalicylic acid và NSAIDs) hiệu quả của thuốc có thể bị ảnh hưởng
+
+Những nghiên cứu hiện có với warfarin cho thấy không có tương tác giữa warfarin và sản phẩm chứa G.biloba, nhưng phải theo dõi khi bắt đầu điều trị, khi đổi liều G.biloba, khi kết thúc G.biloba hoặc khi đổi thuốc.
+
+Một nghiên cứu với talinolol ch
+
+  --- Chunk 2/5 ---
+  File     : \dongphuongyphap\benh-dieu-tri\047_Xơ-Vữa-Động-Mạch-Cảnh.md
+  Article  : Xơ Vữa Động Mạch Cảnh
+  Section  : Xơ vữa động mạch cảnh là gì?
+  Size     : 584 chars / 132 words
+  Content  :
+    ## Xơ vữa động mạch cảnh là gì?
+
+Động mạch cảnh là phần bắt đầu từ động mạch chủ ở ngực đi lên 2 bên cổ và đi vào não nằm trong sọ. Chức năng chính của bộ phận này là cung cấp máu cho não.
+
+**Xơ vữa động mạch cảnh** được hiểu là tình trạng xảy ra khi có sự tích tụ cholesterol và chất béo xấu trong lòng động mạch, tạo ra mảng bám tích tụ khiến lòng động mạch bị thu hẹp lại. Lúc này quá trình cung cấp oxy, máu và dinh dưỡng đến cấu trúc não bị cản trở, gây bệnh động mạch cảnh, tăng nguy cơ đột quỵ
+
+  --- Chunk 3/5 ---
+  File     : \dongphuongyphap\benh-dieu-tri\011_Thoái-Hoá-Đốt-Sống-Lưng.md
+  Article  : Thoái Hoá Đốt Sống Lưng
+  Section  : **Triệu chứng bệnh thoái hóa cột sống thắt lưng ở đại đa số người bệnh**
+  Size     : 1343 chars / 289 words
+  Content  :
+    ## **Triệu chứng bệnh thoái hóa cột sống thắt lưng ở đại đa số người bệnh**
+
+Bệnh thoái hóa cột sống lưng là một trong những bệnh phát triển một cách âm thầm, chúng có những biểu hiện khác nhau, tùy thuộc vào nguyên nhân của từng bệnh nhân. Đặc biệt, đối với những đối tượng bệnh nhân bị bệnh do nguyên nhân tuổi tác cao thì gần như không cảm nhận được bất cứ triệu chứng thoái hóa cột sống thắt lưng nào. 
+
+Mặt khác, đối với bệnh nhân bị bệnh do những nguyên nhân khác, có thể dấu hiệu trong suốt mộ
+
+  --- Chunk 4/5 ---
+  File     : \thaythuocvietnam\352_Tac-hai-nguy-hiem-khi-bi-ngo-oc-han-the.md
+  Article  : Tac-hai-nguy-hiem-khi-bi-ngo-oc-han-the
+  Section  : Tác hại nguy hiểm khi bị ngộ độc hàn the
+  Size     : 808 chars / 146 words
+  Content  :
+    # Tác hại nguy hiểm khi bị ngộ độc hàn the
+
+Hàn the là một chất bảo quản có tính độc khá lớn cho cơ thể. Song, do có thể kéo dài đời sống của thực phẩm mà nhiều người vẫn bất chấp thêm vào nguyên liệu để sản xuất thực phẩm. Chính điều này làm gia tăng nguy cơ dẫn tới bị ngộ độc hàn the. Vậy bị ngộ độc hàn the có những tác hại nguy hiểm như thế nào. Bài viết dưới đây sẽ giúp bạn có câu trả lời.
+
+Nội dung bài viết
+
+[Toggle](#)
+* [1. Hàn the là gì?](#1_Han_the_la_gi)
+* [2. Hàn the ảnh hưởng tới sức
+
+  --- Chunk 5/5 ---
+  File     : \thaythuocvietnam\044_Cach-su-dung-thuoc-tranh-thai-khan-cap-72h.md
+  Article  : Cach-su-dung-thuoc-tranh-thai-khan-cap-72h
+  Section  : **4. Tác dụng phụ khi dùng thuốc tránh thai khẩn cấp 72h**
+  Size     : 246 chars / 52 words
+  Content  :
+    ng có tác dụng phòng tránh bệnh lây truyền qua đường tình dục và tiềm ẩn nhiều tác dụng không mong muốn. Vì vậy bạn gái cần sử dụng thuốc tránh thai khẩn cấp 72h đúng chỉ định và tránh lạm dụng thuốc.
+
+**BS Hoàng Ngọc Anh**
+
+Chia sẻ nội dung này:
+
+============================================================
+NEXT STEPS:
+  1. If many tiny chunks: chunking is too aggressive
+  2. If many huge chunks: max_chars=1500 is too small for this data
+  3. If cross-section risk > 0: _split_long_section is merging sections
+  4. If samples look bad: adjust max_chars or split logic
+  5. Once stats look good: run eval_retrieval.py to test semantic search
+============================================================

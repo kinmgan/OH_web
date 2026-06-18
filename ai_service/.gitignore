@@ -1,0 +1,86 @@
+# =====================================================
+# AI Service - .gitignore
+# Chỉ push code chính thức lên, bỏ qua file local/tạm
+# =====================================================
+
+# ---------------------------------------------------
+# Planning & notes (tài liệu nội bộ, làm việc tạm)
+# ---------------------------------------------------
+plan/
+*.plan.md
+checkpoint_*.md
+*_checkpoint.md
+notes/
+scratch/
+TODO.md
+MEMO.md
+
+# ---------------------------------------------------
+# Data files (thường lớn hoặc sensitive, không push)
+# ---------------------------------------------------
+data/
+*.json
+!*.example.json
+
+# ---------------------------------------------------
+# Evaluation results & reports (output local)
+# ---------------------------------------------------
+e2e_test_results.json
+eval_results/
+*_results.json
+*_report.json
+probe_report.json
+
+# ---------------------------------------------------
+# Python runtime artifacts
+# ---------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.egg-info/
+dist/
+build/
+
+# ---------------------------------------------------
+# Virtual environment
+# ---------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------------------------------------------------
+# Environment variables (sensitive!)
+# ---------------------------------------------------
+.env
+.env.local
+.env.*.local
+
+# ---------------------------------------------------
+# Logs
+# ---------------------------------------------------
+logs/
+*.log
+
+# ---------------------------------------------------
+# IDE / Editor
+# ---------------------------------------------------
+.vscode/
+.idea/
+*.suo
+*.sw?
+
+# ---------------------------------------------------
+# OS generated
+# ---------------------------------------------------
+.DS_Store
+Thumbs.db

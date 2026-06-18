@@ -1,0 +1,921 @@
+{
+  "category_code": "PHU_NAM_KHOA",
+  "category_id": 6,
+  "category_name": "Phụ khoa & Nam khoa",
+  "requested_count": 60,
+  "products": [
+    {
+      "name": "Ích mẫu",
+      "origin": "Việt Nam (mọc hoang khắp nơi)",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "TAM",
+        "CAN",
+        "BANG_QUANG"
+      ],
+      "tags": [
+        "Hoạt huyết",
+        "Điều kinh",
+        "Lợi thủy"
+      ],
+      "short_desc": "Vị thuốc đầu bảng cho phụ nữ, giúp hoạt huyết điều kinh, trị kinh nguyệt không đều, đau bụng kinh.",
+      "price_hint": 120000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Ngải cứu",
+      "origin": "Việt Nam",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "CAN",
+        "TY",
+        "PHE"
+      ],
+      "tags": [
+        "Ôn kinh",
+        "Chỉ huyết",
+        "An thai"
+      ],
+      "short_desc": "Tác dụng ôn kinh chỉ huyết, ngắt cơn đau bụng kinh và dùng để an thai.",
+      "price_hint": 90000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Xà sàng tử",
+      "origin": "Việt Nam",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "THAN"
+      ],
+      "tags": [
+        "Sát trùng",
+        "Trị ngứa",
+        "Tráng dương"
+      ],
+      "short_desc": "Chủ trị ngứa âm đạo do trùng roi ở phụ nữ và hỗ trợ bổ thận tráng dương cho nam giới.",
+      "price_hint": 250000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Trinh nữ hoàng cung",
+      "origin": "Việt Nam",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "CAN"
+      ],
+      "tags": [
+        "Trị u xơ",
+        "Phụ khoa",
+        "Tiền liệt tuyến"
+      ],
+      "short_desc": "Dược liệu quý trong điều trị u xơ tử cung ở phụ nữ và u xơ tiền liệt tuyến ở nam giới.",
+      "price_hint": 160000,
+      "unit": "Gói 500g",
+      "review_needed": true,
+      "source_note": "Đỗ Tất Lợi"
+    },
+    {
+      "name": "Kim anh tử",
+      "origin": "Việt Nam",
+      "flavors": [
+        "CHUA"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "PHE",
+        "TY",
+        "THAN"
+      ],
+      "tags": [
+        "Cố tinh",
+        "Sáp niệu",
+        "Chỉ tả"
+      ],
+      "short_desc": "Quả Kim anh giúp cố tinh, sáp niệu, trị di tinh, hoạt tinh, tiểu đêm và khí hư bạch đới.",
+      "price_hint": 220000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Liên tu",
+      "origin": "Việt Nam",
+      "flavors": [
+        "NGOT"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "TAM",
+        "THAN"
+      ],
+      "tags": [
+        "Thanh tâm",
+        "Cố tinh",
+        "Chỉ huyết"
+      ],
+      "short_desc": "Nhị hoa sen giúp thanh tâm, cố tinh, chuyên trị di tinh, hoạt tinh và băng huyết.",
+      "price_hint": 450000,
+      "unit": "Gói 200g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Phá cố chỉ",
+      "origin": "Trung Quốc",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "THAN",
+        "TY"
+      ],
+      "tags": [
+        "Bổ thận",
+        "Tráng dương",
+        "Chỉ tả"
+      ],
+      "short_desc": "Hạt cây Đậu ma giúp bổ thận tráng dương, trị liệt dương, di tinh và tiêu chảy do thận hư.",
+      "price_hint": 280000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Tang phiêu tiêu",
+      "origin": "Việt Nam",
+      "flavors": [
+        "NGOT",
+        "MAN"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "CAN",
+        "THAN"
+      ],
+      "tags": [
+        "Bổ thận",
+        "Cố tinh",
+        "Sáp niệu"
+      ],
+      "short_desc": "Tổ bọ ngựa trên cây dâu giúp bổ thận, cố tinh, trị di tinh, đái dầm, tiểu đêm.",
+      "price_hint": 650000,
+      "unit": "Gói 200g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Bạch tật lê",
+      "origin": "Việt Nam (vùng ven biển miền Trung)",
+      "flavors": [
+        "DANG",
+        "CAY"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "CAN"
+      ],
+      "tags": [
+        "Bình can",
+        "Bổ thận",
+        "Tăng sinh lý"
+      ],
+      "short_desc": "Tác dụng bình can giải uất, hỗ trợ bổ thận và tăng cường chức năng sinh lý nam giới.",
+      "price_hint": 220000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Trữ ma căn",
+      "origin": "Việt Nam",
+      "flavors": [
+        "NGOT"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "TAM",
+        "CAN"
+      ],
+      "tags": [
+        "An thai",
+        "Thanh nhiệt",
+        "Chỉ huyết"
+      ],
+      "short_desc": "Rễ cây Gai giúp thanh nhiệt, chỉ huyết, đặc biệt dùng để an thai và trị động thai.",
+      "price_hint": 110000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Xuyên khung",
+      "origin": "Trung Quốc",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "CAN",
+        "TAM_BAO"
+      ],
+      "tags": [
+        "Hoạt huyết",
+        "Hành khí",
+        "Giảm đau"
+      ],
+      "short_desc": "Vị thuốc hoạt huyết hành khí, trị kinh nguyệt không đều, bế kinh, đau bụng kinh.",
+      "price_hint": 280000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Hồng hoa",
+      "origin": "Trung Quốc",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "TAM",
+        "CAN"
+      ],
+      "tags": [
+        "Hoạt huyết",
+        "Thông kinh",
+        "Khử ứ"
+      ],
+      "short_desc": "Chuyên trị bế kinh, đau bụng kinh, ứ huyết sau khi sinh.",
+      "price_hint": 550000,
+      "unit": "Gói 200g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Phúc bồn tử",
+      "origin": "Việt Nam, Trung Quốc",
+      "flavors": [
+        "NGOT",
+        "CHUA"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "CAN",
+        "THAN"
+      ],
+      "tags": [
+        "Bổ thận",
+        "Ích tinh",
+        "Sáng mắt"
+      ],
+      "short_desc": "Quả mâm xôi khô giúp bổ thận ích tinh, trị liệt dương, di tinh và tiểu đêm.",
+      "price_hint": 420000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Trạch tả",
+      "origin": "Việt Nam",
+      "flavors": [
+        "NGOT"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "THAN",
+        "BANG_QUANG"
+      ],
+      "tags": [
+        "Lợi tiểu",
+        "Thanh nhiệt",
+        "Tả hỏa"
+      ],
+      "short_desc": "Tác dụng lợi thủy thẩm thấp, thanh nhiệt ở thận kinh, trị di tinh do tướng hỏa vọng động.",
+      "price_hint": 160000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Mẫu đơn bì",
+      "origin": "Trung Quốc",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "TAM",
+        "CAN",
+        "THAN"
+      ],
+      "tags": [
+        "Thanh nhiệt",
+        "Lương huyết",
+        "Hoạt huyết"
+      ],
+      "short_desc": "Thanh nhiệt lương huyết, hoạt huyết hóa ứ, dùng cho phụ nữ kinh nguyệt sớm, bế kinh.",
+      "price_hint": 350000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Tô mộc",
+      "origin": "Việt Nam",
+      "flavors": [
+        "NGOT",
+        "CAY"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "TAM",
+        "CAN",
+        "TY"
+      ],
+      "tags": [
+        "Hoạt huyết",
+        "Thông kinh",
+        "Chỉ thống"
+      ],
+      "short_desc": "Gỗ cây Vang giúp hoạt huyết thông kinh, chuyên trị bế kinh, đau bụng kinh và ứ huyết sau sinh.",
+      "price_hint": 90000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Bồ công anh",
+      "origin": "Việt Nam",
+      "flavors": [
+        "NGOT",
+        "DANG"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "CAN",
+        "VI"
+      ],
+      "tags": [
+        "Thanh nhiệt",
+        "Giải độc",
+        "Thông sữa"
+      ],
+      "short_desc": "Tác dụng thanh nhiệt giải độc, chuyên trị viêm tuyến vú và tắc tia sữa ở phụ nữ.",
+      "price_hint": 180000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Thông thảo",
+      "origin": "Việt Nam, Trung Quốc",
+      "flavors": [
+        "NGOT",
+        "NHAT"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "PHE",
+        "VI"
+      ],
+      "tags": [
+        "Lợi niệu",
+        "Thông sữa"
+      ],
+      "short_desc": "Vị thuốc lợi niệu thông lâm, đặc biệt dùng để thông sữa cho phụ nữ sau sinh.",
+      "price_hint": 450000,
+      "unit": "Gói 100g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Vương bất lưu hành",
+      "origin": "Trung Quốc",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "CAN",
+        "VI"
+      ],
+      "tags": [
+        "Hoạt huyết",
+        "Thông kinh",
+        "Thông sữa"
+      ],
+      "short_desc": "Tác dụng hoạt huyết thông kinh, thúc đẻ và thông sữa rất hiệu quả.",
+      "price_hint": 280000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V"
+    },
+    {
+      "name": "Thiên môn",
+      "origin": "Việt Nam",
+      "flavors": [
+        "NGOT",
+        "DANG"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "PHE",
+        "THAN"
+      ],
+      "tags": [
+        "Dưỡng âm",
+        "Nhuận táo",
+        "Thanh nhiệt"
+      ],
+      "short_desc": "Vị thuốc dưỡng âm nhuận táo, thanh phế giáng hỏa, dùng trị các chứng âm hư hỏa vượng.",
+      "price_hint": 280000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam V, Đỗ Tất Lợi"
+    },
+    {
+      "name": "Cửu thái tử",
+      "origin": "Hạt phơi khô của cây Hẹ (Allium tuberosum).",
+      "flavors": [
+        "CAY",
+        "NGOT"
+      ],
+      "property": "ON",
+      "meridians": [
+        "CAN",
+        "THAN"
+      ],
+      "tags": [
+        "bổ thận",
+        "tráng dương",
+        "cố tinh"
+      ],
+      "short_desc": "Bổ thận tráng dương, ôn trung hành khí. Chủ trị liệt dương, di tinh ở nam giới.",
+      "price_hint": 180000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Rễ cau",
+      "origin": "Rễ non (rễ nổi) phơi khô của cây Cau (Areca catechu).",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "THAN",
+        "VI"
+      ],
+      "tags": [
+        "cường dương",
+        "bổ thận",
+        "nam khoa"
+      ],
+      "short_desc": "Giúp cường dương, cường tráng gân cốt. Chủ trị liệt dương, yếu sinh lý, xuất tinh sớm.",
+      "price_hint": 250000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Tiểu hồi hương",
+      "origin": "Quả chín phơi khô của cây Tiểu hồi hương (Foeniculum vulgare).",
+      "flavors": [
+        "CAY",
+        "NGOT"
+      ],
+      "property": "ON",
+      "meridians": [
+        "CAN",
+        "THAN",
+        "VI",
+        "TY"
+      ],
+      "tags": [
+        "ôn thận",
+        "tán hàn",
+        "lý khí"
+      ],
+      "short_desc": "Ôn thận tán hàn, lý khí hòa vị. Trị sa tinh hoàn ở nam giới, thống kinh và bế kinh ở phụ nữ do hàn.",
+      "price_hint": 140000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Tạo giác thích",
+      "origin": "Gai hái từ thân cây Bồ kết (Gleditsia sinensis), phơi sấy khô.",
+      "flavors": [
+        "CAY"
+      ],
+      "property": "ON",
+      "meridians": [
+        "CAN",
+        "VI"
+      ],
+      "tags": [
+        "tiêu thũng",
+        "bài nùng",
+        "kháng viêm"
+      ],
+      "short_desc": "Tác dụng tiêu thũng bài nùng rất mạnh. Thường dùng trị sưng viêm tuyến vú, tắc tia sữa ở phụ nữ sau sinh.",
+      "price_hint": 150000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Bạch đồng nữ",
+      "origin": "Rễ và lá phơi khô của cây Bạch đồng nữ (Clerodendrum glandulosum).",
+      "flavors": [
+        "DANG",
+        "NHAT"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "TAM",
+        "CAN",
+        "TY"
+      ],
+      "tags": [
+        "thanh nhiệt",
+        "tiêu viêm",
+        "chữa đới hạ"
+      ],
+      "short_desc": "Thanh nhiệt, tiêu độc, kháng viêm. Rất hiệu quả trong điều trị khí hư bạch đới, viêm nhiễm phụ khoa.",
+      "price_hint": 130000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Xích đồng nam",
+      "origin": "Rễ và thân phơi khô của cây Xích đồng nam (Clerodendrum japonicum).",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "CAN",
+        "TY",
+        "THAN"
+      ],
+      "tags": [
+        "hoạt huyết",
+        "tiêu viêm",
+        "điều kinh"
+      ],
+      "short_desc": "Tác dụng hoạt huyết, tiêu viêm. Chủ trị kinh nguyệt không đều, viêm nhiễm phụ khoa, đau bụng kinh.",
+      "price_hint": 135000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Trạch lan",
+      "origin": "Toàn cây trên mặt đất phơi khô của cây Trạch lan (Lycopus lucidus).",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "ON",
+      "meridians": [
+        "CAN",
+        "TY"
+      ],
+      "tags": [
+        "hoạt huyết",
+        "hành thủy",
+        "điều kinh"
+      ],
+      "short_desc": "Hoạt huyết khứ ứ, thông kinh hành thủy. Đặc trị bế kinh, thống kinh, ứ huyết sau sinh.",
+      "price_hint": 160000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Bồ hoàng",
+      "origin": "Phấn hoa sấy khô của cây Cỏ nến (Typha orientalis).",
+      "flavors": [
+        "NGOT"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "CAN",
+        "TAM_BAO"
+      ],
+      "tags": [
+        "hoạt huyết",
+        "chỉ huyết",
+        "hóa ứ"
+      ],
+      "short_desc": "Có tính năng vừa hoạt huyết khứ ứ (dùng sống) vừa thu liễm chỉ huyết (sao đen). Trị băng lậu, hành kinh đau bụng.",
+      "price_hint": 220000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Lăng tiêu hoa",
+      "origin": "Hoa phơi khô của cây Lăng tiêu (Campsis grandiflora).",
+      "flavors": [
+        "CAY",
+        "CHUA"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "CAN",
+        "TAM_BAO"
+      ],
+      "tags": [
+        "phá ứ huyết",
+        "thông kinh"
+      ],
+      "short_desc": "Tác dụng phá ứ huyết, thông kinh bế. Dùng trong trường hợp bế kinh, tích tụ trưng hà (u xơ, khối u phụ khoa).",
+      "price_hint": 190000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Ngũ linh chi",
+      "origin": "Phân dơi sấy khô (Trogopterus xanthipes).",
+      "flavors": [
+        "DANG",
+        "NGOT"
+      ],
+      "property": "ON",
+      "meridians": [
+        "CAN"
+      ],
+      "tags": [
+        "hoạt huyết",
+        "chỉ thống",
+        "hóa ứ"
+      ],
+      "short_desc": "Hoạt huyết chỉ thống, hóa ứ điều kinh. Đặc trị hành kinh ứ cục, đau bụng kinh dữ dội, đau do huyết ứ sau sinh.",
+      "price_hint": 280000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Tử hà xa",
+      "origin": "Nhau thai người khỏe mạnh sấy khô, chế biến y tế (Placenta Hominis).",
+      "flavors": [
+        "NGOT",
+        "MAN"
+      ],
+      "property": "ON",
+      "meridians": [
+        "TAM",
+        "PHE",
+        "CAN",
+        "THAN"
+      ],
+      "tags": [
+        "bổ khí",
+        "dưỡng huyết",
+        "ích tinh"
+      ],
+      "short_desc": "Đại bổ khí huyết, ích tinh. Rất hiệu quả trong điều trị vô sinh nam nữ, cơ thể suy nhược nghiêm trọng.",
+      "price_hint": 850000,
+      "unit": "Gói 100g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Hải cẩu thận",
+      "origin": "Tinh hoàn và dương vật sấy khô của hải cẩu (Callorhinus ursinus).",
+      "flavors": [
+        "MAN"
+      ],
+      "property": "NHIET",
+      "meridians": [
+        "THAN",
+        "CAN"
+      ],
+      "tags": [
+        "tráng dương",
+        "ích tinh",
+        "ôn thận"
+      ],
+      "short_desc": "Vị thuốc bổ thận tráng dương bậc nhất. Đặc trị liệt dương nặng, tinh lạnh, vô sinh nam do suy giảm chức năng sinh dục.",
+      "price_hint": 1500000,
+      "unit": "Hộp 50g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Thiến thảo",
+      "origin": "Rễ phơi khô của cây Thiến thảo (Rubia cordifolia).",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "HAN",
+      "meridians": [
+        "CAN",
+        "TAM"
+      ],
+      "tags": [
+        "lương huyết",
+        "chỉ huyết",
+        "hoạt huyết"
+      ],
+      "short_desc": "Lương huyết, chỉ huyết, hóa ứ. Trị chứng rong kinh, băng huyết dư tà ở phụ nữ.",
+      "price_hint": 170000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Bạch quả",
+      "origin": "Hạt phơi khô của cây Bạch quả (Ginkgo biloba).",
+      "flavors": [
+        "NGOT",
+        "DANG",
+        "CHAT"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "PHE"
+      ],
+      "tags": [
+        "liễm phế",
+        "sáp niệu",
+        "chỉ đới"
+      ],
+      "short_desc": "Có tính thu liễm mạnh. Chủ trị khí hư bạch đới ở phụ nữ và chứng di tinh bạch trọc ở nam giới.",
+      "price_hint": 200000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Huyết dư than",
+      "origin": "Tóc rối rửa sạch, đốt tồn tính (Crinis Carbonisatus).",
+      "flavors": [
+        "DANG"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "CAN",
+        "TAM",
+        "PHE"
+      ],
+      "tags": [
+        "chỉ huyết",
+        "hóa ứ"
+      ],
+      "short_desc": "Tác dụng thu liễm chỉ huyết, hóa ứ mà không lưu tà. Chuyên trị rong huyết, băng lậu dai dẳng ở phụ nữ.",
+      "price_hint": 300000,
+      "unit": "Gói 100g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Lá mâm xôi",
+      "origin": "Lá non và cành non phơi khô của cây Mâm xôi (Rubus alceaefolius).",
+      "flavors": [
+        "NGOT",
+        "NHAT"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "CAN",
+        "THAN",
+        "TY"
+      ],
+      "tags": [
+        "thanh nhiệt",
+        "tán ứ",
+        "phụ khoa"
+      ],
+      "short_desc": "Thanh nhiệt, tán ứ, chống viêm nhiễm. Hỗ trợ chữa viêm nhiễm phụ khoa, tắc nghẽn vòi trứng.",
+      "price_hint": 110000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Dây chiều",
+      "origin": "Rễ và lá phơi khô của Dây chiều (Tetracera scandens).",
+      "flavors": [
+        "DANG",
+        "CHAT"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "CAN"
+      ],
+      "tags": [
+        "hoạt huyết",
+        "thông kinh",
+        "chỉ đới"
+      ],
+      "short_desc": "Giúp hoạt huyết, thông kinh, thanh nhiệt. Rất hiệu quả chữa bế kinh, huyết trắng đới hạ ở phụ nữ.",
+      "price_hint": 115000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Sung úy tử",
+      "origin": "Quả (hạt) phơi khô của cây Ích mẫu (Leonurus japonicus).",
+      "flavors": [
+        "CAY",
+        "DANG"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "TAM",
+        "CAN"
+      ],
+      "tags": [
+        "hoạt huyết",
+        "điều kinh",
+        "minh mục"
+      ],
+      "short_desc": "Hoạt huyết điều kinh, thanh can minh mục. Chủ trị các chứng bế kinh, thống kinh, kinh nguyệt bế tắc do huyết ứ.",
+      "price_hint": 250000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Tông lư than",
+      "origin": "Bẹ của cây Cọ (Móc) nung đốt tồn tính (Trachycarpus fortunei).",
+      "flavors": [
+        "DANG",
+        "CHAT"
+      ],
+      "property": "BINH",
+      "meridians": [
+        "PHE",
+        "CAN",
+        "DAI_TRANG"
+      ],
+      "tags": [
+        "thu liễm",
+        "chỉ huyết",
+        "cầm máu"
+      ],
+      "short_desc": "Có tính thu liễm mạnh, chuyên chỉ huyết. Đặc trị băng huyết, rong kinh đới hạ dai dẳng.",
+      "price_hint": 150000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    },
+    {
+      "name": "Hoa dâm bụt",
+      "origin": "Hoa phơi hoặc sấy khô của cây Dâm bụt (Hibiscus rosa-sinensis).",
+      "flavors": [
+        "NGOT",
+        "NHAT"
+      ],
+      "property": "LUONG",
+      "meridians": [
+        "TAM",
+        "CAN",
+        "THAN"
+      ],
+      "tags": [
+        "thanh nhiệt",
+        "giải độc",
+        "chỉ đới"
+      ],
+      "short_desc": "Thanh nhiệt giải độc, lợi tiểu. Thường dùng trong dân gian chữa bạch đới phụ khoa và kinh nguyệt không đều.",
+      "price_hint": 120000,
+      "unit": "Gói 500g",
+      "review_needed": false,
+      "source_note": "Dược điển Việt Nam; Những cây thuốc và vị thuốc Việt Nam (Đỗ Tất Lợi)"
+    }
+  ]
+}

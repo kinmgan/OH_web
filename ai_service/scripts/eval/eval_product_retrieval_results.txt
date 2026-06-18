@@ -1,0 +1,297 @@
+Collection: health_products | Points: 431
+Running 11 test queries (top_k=5)...
+
+============================================================
+Q: Thuốc trị đau dạ dày
+  Expected categories: Hệ tiêu hóa
+  Top-5 results (reranked):
+  [✓] #1 score=0.419 | [Hệ tiêu hóa]
+      Product : Khương Hoàng
+      Price   : 110000.0
+
+  [x] #2 score=0.386 | [Xương khớp & Tê thấp]
+      Product : Đơn Châu Chấu
+      Price   : 140000.0
+
+  [x] #3 score=0.378 | [Bồi bổ & Tăng cường]
+      Product : Nhục thung dung
+      Price   : 80000.0
+
+  [x] #4 score=0.378 | [Phụ khoa & Nam khoa]
+      Product : Tang phiêu tiêu
+      Price   : 650000.0
+
+  [x] #5 score=0.374 | [Hệ hô hấp]
+      Product : Lá Dâu
+      Price   : 55000.0
+
+============================================================
+Q: Thuốc bồi bổ cơ thể
+  (expanded → Thuốc bồi bổ cơ thể bổ khí ích khí bổ âm tư âm dưỡng âm)
+  Expected categories: Bồi bổ & Tăng cường
+  Top-5 results (reranked):
+  [✓] #1 score=0.476 | [Bồi bổ & Tăng cường]
+      Product : Quy bản
+      Price   : 80000.0
+
+  [✓] #2 score=0.457 | [Bồi bổ & Tăng cường]
+      Product : Phong mật
+      Price   : 350000.0
+
+  [✓] #3 score=0.444 | [Bồi bổ & Tăng cường]
+      Product : Đại táo
+      Price   : 80000.0
+
+  [✓] #4 score=0.443 | [Bồi bổ & Tăng cường]
+      Product : Bổ cốt chỉ
+      Price   : 80000.0
+
+  [✓] #5 score=0.433 | [Bồi bổ & Tăng cường]
+      Product : Ý dĩ
+      Price   : 80000.0
+
+============================================================
+Q: Chữa đau nhức xương khớp
+  (expanded → Chữa đau nhức xương khớp hỗ trợ xương khớp đau nhức xương khớp)
+  Expected categories: Xương khớp & Tê thấp
+  Top-5 results (reranked):
+  [✓] #1 score=0.402 | [Xương khớp & Tê thấp]
+      Product : Một Dược
+      Price   : 220000.0
+
+  [✓] #2 score=0.396 | [Xương khớp & Tê thấp]
+      Product : Độc Hoạt
+      Price   : 180000.0
+
+  [✓] #3 score=0.395 | [Xương khớp & Tê thấp]
+      Product : Tang Chi
+      Price   : 85000.0
+
+  [✓] #4 score=0.395 | [Xương khớp & Tê thấp]
+      Product : Rễ Xấu Hổ
+      Price   : 55000.0
+
+  [✓] #5 score=0.394 | [Xương khớp & Tê thấp]
+      Product : Mã Tiền
+      Price   : 350000.0
+
+============================================================
+Q: Thuốc trị viêm họng
+  (expanded → Thuốc trị viêm họng viêm họng)
+  Expected categories: Hệ hô hấp, Thanh nhiệt & Giải độc
+  Top-5 results (reranked):
+  [✓] #1 score=0.372 | [Hệ hô hấp]
+      Product : Tử Uyển
+      Price   : 110000.0
+
+  [✓] #2 score=0.365 | [Hệ hô hấp]
+      Product : Sa Sâm
+      Price   : 140000.0
+
+  [x] #3 score=0.348 | [Xương khớp & Tê thấp]
+      Product : Một Dược
+      Price   : 220000.0
+
+  [x] #4 score=0.345 | [Hệ tiêu hóa]
+      Product : Khương Hoàng
+      Price   : 110000.0
+
+  [✓] #5 score=0.344 | [Hệ hô hấp]
+      Product : Toàn Phúc Hoa
+      Price   : 160000.0
+
+============================================================
+Q: Sản phẩm bổ thận tráng dương
+  (expanded → Sản phẩm bổ thận tráng dương bổ dương tráng dương ôn thận tăng sinh lý bổ thận)
+  Expected categories: Bồi bổ & Tăng cường, Phụ khoa & Nam khoa
+  Top-5 results (reranked):
+  [✓] #1 score=0.442 | [Bồi bổ & Tăng cường]
+      Product : Bổ cốt chỉ
+      Price   : 80000.0
+
+  [✓] #2 score=0.441 | [Bồi bổ & Tăng cường]
+      Product : Phục linh
+      Price   : 80000.0
+
+  [✓] #3 score=0.434 | [Bồi bổ & Tăng cường]
+      Product : Liên nhục
+      Price   : 80000.0
+
+  [✓] #4 score=0.424 | [Bồi bổ & Tăng cường]
+      Product : Sa uyển tử
+      Price   : 80000.0
+
+  [✓] #5 score=0.423 | [Bồi bổ & Tăng cường]
+      Product : Quy bản
+      Price   : 80000.0
+
+============================================================
+Q: Thuốc trị tiêu chảy
+  Expected categories: Hệ tiêu hóa
+  Top-5 results (reranked):
+  [x] #1 score=0.401 | [Phụ khoa & Nam khoa]
+      Product : Tiểu hồi hương
+      Price   : 140000.0
+
+  [✓] #2 score=0.378 | [Hệ tiêu hóa]
+      Product : Kha Tử
+      Price   : 120000.0
+
+  [x] #3 score=0.376 | [Phụ khoa & Nam khoa]
+      Product : Xích đồng nam
+      Price   : 135000.0
+
+  [✓] #4 score=0.368 | [Hệ tiêu hóa]
+      Product : A Ngụy
+      Price   : 850000.0
+
+  [x] #5 score=0.365 | [Phụ khoa & Nam khoa]
+      Product : Trạch tả
+      Price   : 160000.0
+
+============================================================
+Q: Thuốc chữa táo bón
+  Expected categories: Hệ tiêu hóa
+  Top-5 results (reranked):
+  [✓] #1 score=0.409 | [Hệ tiêu hóa]
+      Product : Phan Tả Diệp
+      Price   : 150000.0
+
+  [✓] #2 score=0.399 | [Hệ tiêu hóa]
+      Product : Lô Hội
+      Price   : 120000.0
+
+  [✓] #3 score=0.393 | [Hệ tiêu hóa]
+      Product : Quyết Minh Tử
+      Price   : 80000.0
+
+  [x] #4 score=0.373 | [Thanh nhiệt & Giải độc]
+      Product : Long đởm thảo
+      Price   : 350000.0
+
+  [✓] #5 score=0.364 | [Hệ tiêu hóa]
+      Product : Mang Tiêu
+      Price   : 50000.0
+
+============================================================
+Q: Thuốc trị ho
+  (expanded → Thuốc trị ho chỉ khái ho)
+  Expected categories: Hệ hô hấp
+  Top-5 results (reranked):
+  [✓] #1 score=0.518 | [Hệ hô hấp]
+      Product : Tỳ Bà Diệp
+      Price   : 85000.0
+
+  [✓] #2 score=0.504 | [Hệ hô hấp]
+      Product : Tử Uyển
+      Price   : 110000.0
+
+  [✓] #3 score=0.498 | [Hệ hô hấp]
+      Product : Sa Sâm
+      Price   : 140000.0
+
+  [✓] #4 score=0.491 | [Hệ hô hấp]
+      Product : Khoản Đông Hoa
+      Price   : 125000.0
+
+  [x] #5 score=0.486 | [Hệ tiêu hóa]
+      Product : Lô Hội
+      Price   : 120000.0
+
+============================================================
+Q: Thuốc trị cảm cúm
+  (expanded → Thuốc trị cảm cúm giải cảm cảm mạo)
+  Expected categories: Hệ hô hấp, Thanh nhiệt & Giải độc, Xương khớp & Tê thấp
+  Top-5 results (reranked):
+  [x] #1 score=0.361 | [Bồi bổ & Tăng cường]
+      Product : Phong mật
+      Price   : 350000.0
+
+  [✓] #2 score=0.357 | [Xương khớp & Tê thấp]
+      Product : Đơn Châu Chấu
+      Price   : 140000.0
+
+  [✓] #3 score=0.356 | [Xương khớp & Tê thấp]
+      Product : Bá Bệnh
+      Price   : 220000.0
+
+  [x] #4 score=0.355 | [Bồi bổ & Tăng cường]
+      Product : Cam thảo
+      Price   : 80000.0
+
+  [✓] #5 score=0.354 | [Hệ hô hấp]
+      Product : Tử Uyển
+      Price   : 110000.0
+
+============================================================
+Q: Thuốc bổ âm
+  Expected categories: Bồi bổ & Tăng cường
+  Top-5 results (reranked):
+  [✓] #1 score=0.482 | [Bồi bổ & Tăng cường]
+      Product : Miết giáp
+      Price   : 450000.0
+
+  [✓] #2 score=0.481 | [Bồi bổ & Tăng cường]
+      Product : Quy bản
+      Price   : 80000.0
+
+  [✓] #3 score=0.461 | [Bồi bổ & Tăng cường]
+      Product : Ngân nhĩ
+      Price   : 350000.0
+
+  [✓] #4 score=0.459 | [Bồi bổ & Tăng cường]
+      Product : Ngọc trúc
+      Price   : 80000.0
+
+  [✓] #5 score=0.458 | [Bồi bổ & Tăng cường]
+      Product : Tục đoạn
+      Price   : 80000.0
+
+============================================================
+Q: Thuốc thanh nhiệt giải độc
+  (expanded → Thuốc thanh nhiệt giải độc tiêu độc)
+  Expected categories: Thanh nhiệt & Giải độc
+  Top-5 results (reranked):
+  [✓] #1 score=0.531 | [Thanh nhiệt & Giải độc]
+      Product : Bại tương thảo
+      Price   : 180000.0
+
+  [✓] #2 score=0.518 | [Thanh nhiệt & Giải độc]
+      Product : Long đởm thảo
+      Price   : 350000.0
+
+  [✓] #3 score=0.501 | [Thanh nhiệt & Giải độc]
+      Product : Hạ khô thảo
+      Price   : 160000.0
+
+  [✓] #4 score=0.497 | [Thanh nhiệt & Giải độc]
+      Product : Hoàn ngọc
+      Price   : 80000.0
+
+  [x] #5 score=0.495 | [Xương khớp & Tê thấp]
+      Product : Đơn Châu Chấu
+      Price   : 140000.0
+
+=====================================================================================
+SUMMARY TABLE (IR METRICS)
+=====================================================================================
+  #   Question                                 Expected Category            P@5  Success
+-------------------------------------------------------------------------------------
+  1   Thuốc trị đau dạ dày                     Hệ tiêu hóa                 0.20        1
+  2   Thuốc bồi bổ cơ thể                      Bồi bổ & Tăng cường         1.00        1
+  3   Chữa đau nhức xương khớp                 Xương khớp & Tê thấp        1.00        1
+  4   Thuốc trị viêm họng                      Hệ hô hấp, Thanh nhiệt ..   0.60        1
+  5   Sản phẩm bổ thận tráng dương             Bồi bổ & Tăng cường, Ph..   1.00        1
+  6   Thuốc trị tiêu chảy                      Hệ tiêu hóa                 0.40        1
+  7   Thuốc chữa táo bón                       Hệ tiêu hóa                 0.80        1
+  8   Thuốc trị ho                             Hệ hô hấp                   0.80        1
+  9   Thuốc trị cảm cúm                        Hệ hô hấp, Thanh nhiệt ..   0.60        1
+  10  Thuốc bổ âm                              Bồi bổ & Tăng cường         1.00        1
+  11  Thuốc thanh nhiệt giải độc               Thanh nhiệt & Giải độc      0.80        1
+-------------------------------------------------------------------------------------
+  Mean Precision@5: 74.55%
+  Success Rate (Hit Rate): 100.00%
+
+  INTERPRETATION:
+    Precision@5: % of top-5 results that match expected categories.
+    Success Rate : % of queries that have at least 1 correct result in top-5.
