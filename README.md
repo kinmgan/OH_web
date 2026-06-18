@@ -28,7 +28,7 @@ graph TD
 ```
 
 ### Năng lực hệ thống
-- **Xây dựng kho tri thức:** Tự động thu thập (crawl) và xử lý dữ liệu từ nhiều nguồn y học cổ truyền có cấu trúc website khác nhau; chuẩn hóa hàng nghìn tài liệu y khoa và thông tin sản phẩm.
+- **Xây dựng kho tri thức:** Tự động thu thập (crawl) và xử lý dữ liệu từ nhiều nguồn y học cổ truyền có cấu trúc website khác nhau; chuẩn hóa tài liệu y khoa và thông tin sản phẩm.
 - **Data Ingestion Pipeline:** Thiết lập luồng xử lý dữ liệu tự động bao gồm parsing, phân chia đoạn (chunking) theo ngữ cảnh y khoa, embedding và lưu trữ trên Qdrant với các metadata đa chiều phục vụ mục đích truy xuất.
 - **Xử lý Vocabulary Gap:** Giải quyết khoảng cách ngữ nghĩa giữa truy vấn của người dùng và thuật ngữ Đông y chuyên ngành bằng cách xây dựng synonym map từ hơn 400 sản phẩm và áp dụng kỹ thuật query-side expansion trước khi truy xuất.
 - **Chiến lược Hybrid Retrieval:** Kết hợp phương pháp tìm kiếm theo ngữ nghĩa (vector similarity) và tìm kiếm từ khóa (custom BM25-lite), đồng thời tích hợp bước reranking để tối ưu độ chính xác tuyệt đối cho các kết quả trả về.
