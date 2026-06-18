@@ -125,17 +125,7 @@ def eval_retrieval(top_k: int = 5, score_threshold: float = 0.0):
     print("-" * 80)
     print(f"  Average top-score: {avg_top:.3f}")
     print()
-    print("  INTERPRETATION:")
-    print("    Score >= 0.5  : Very good -- chunk is highly relevant")
-    print("    Score 0.3-0.5: OK -- relevant but may miss nuance")
-    print("    Score < 0.3  : Poor  -- wrong chunk retrieved, chunking may be the cause")
-    print()
-    print("  If many scores < 0.3:")
-    print("    1. Chunking may be splitting context badly")
-    print("    2. Embedding model may not capture medical terms well")
-    print("    3. Query and chunk language mismatch")
-    print("  If scores are 0.3-0.5:")
-    print("    Chunking is acceptable but try increasing max_chars or adding overlap")
+
 
 
 def main():

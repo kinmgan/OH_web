@@ -385,14 +385,4 @@ SUMMARY TABLE
 --------------------------------------------------------------------------------
   Average top-score: 0.743
 
-  INTERPRETATION:
-    Score >= 0.5  : Very good -- chunk is highly relevant
-    Score 0.3-0.5: OK -- relevant but may miss nuance
-    Score < 0.3  : Poor  -- wrong chunk retrieved, chunking may be the cause
 
-  If many scores < 0.3:
-    1. Chunking may be splitting context badly
-    2. Embedding model may not capture medical terms well
-    3. Query and chunk language mismatch
-  If scores are 0.3-0.5:
-    Chunking is acceptable but try increasing max_chars or adding overlap

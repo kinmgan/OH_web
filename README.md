@@ -35,6 +35,11 @@ graph TD
 - **Intent Routing:** Thiết kế hệ thống định tuyến (intent router) để phân loại và điều hướng các truy vấn của người dùng về sản phẩm, dược liệu, sức khỏe và dinh dưỡng sang các luồng xử lý chuyên biệt.
 - **Prompt Guardrails:** Áp dụng các giới hạn an toàn (guardrails) nghiêm ngặt nhằm ngăn chặn chatbot đưa ra các chẩn đoán hoặc khuyến nghị y tế vượt quá phạm vi cho phép.
 
+### Kết quả Đánh giá Mô hình (Evaluation)
+Nhà tuyển dụng hoặc kỹ sư quan tâm có thể xem trực tiếp kết quả đánh giá độ chính xác (Precision@5, Hit Rate) của các kịch bản truy xuất thực tế:
+- [Đánh giá Truy xuất Tài liệu Y khoa (Health Retrieval)](ai_service/scripts/eval/eval_retrieval_results.txt)
+- [Đánh giá Truy xuất Sản phẩm (Product Retrieval)](ai_service/scripts/eval/eval_product_retrieval_results.txt)
+
 ### Công nghệ sử dụng
 - **Core Frameworks:** Python, FastAPI, Uvicorn
 - **Vector Database:** Qdrant

@@ -295,3 +295,4 @@ SUMMARY TABLE (IR METRICS)
   INTERPRETATION:
     Precision@5: % of top-5 results that match expected categories.
     Success Rate : % of queries that have at least 1 correct result in top-5.
+
